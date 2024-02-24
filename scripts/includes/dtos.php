@@ -6,11 +6,12 @@ readonly class Challenge
         public ?string $title,
         public ?string $date,
         public ?string $content,
+        public ?string $link,
     ) {
     }
 
     public function valid(): bool
     {
-        return $this->title !== null && $this->content !== null && $this->date !== null;
+        return $this->title !== null && $this->content !== null && $this->date !== null && $this->link !== null;
     }
 }

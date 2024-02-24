@@ -55,6 +55,7 @@ function discoverChallenge(string $path): ?Challenge
         title: discoverTitle($xpath),
         date: discoverDate($xpath),
         content: discoverChallengeContent($xpath),
+        link: $path,
     );
 
     return $challenge->valid() ? $challenge : null;
@@ -173,4 +174,123 @@ function storeChallenge(Challenge $challenge): void
         false => throw new Exception(sprintf('Could not write: %s', $payloadPath)),
         default => line('Stored: %s', $payloadPath)
     };
+}
+
+/**
+ * @return SolutionType[]
+ */
+function discoverSolutionTypes(DirectoryIterator $directory): array
+{
+    $solutions = [];
+//    var_dump(compact('directory'));
+
+    foreach ($directory as $solution) {
+//        var_dump(compact('solution'));
+        if ($solution->isDot()) {
+            continue;
+        }
+
+        $filename = $solution->getFilename();
+
+        if (!str_starts_with($filename, 'solution')) {
+            continue;
+        }
+
+        $extension = $solution->getExtension();
+
+//        var_dump(compact('extension', 'solution'));
+
+        $solutions[] = SolutionType::tryFrom($extension);
+    }
+
+
+    return array_filter($solutions);
+}
+
+function emptyFile(string $path): void
+{
+    if (file_exists($path)) {
+        unlink($path);
+    }
+
+    touch($path);
+}
+
+function assertChallengePublicPath(Challenge $challenge): void
+{
+    $publicPath = sprintf(
+        __DIR__.'/../../public/challenges/%s',
+        $challenge->date
+    );
+
+    if (!is_dir($publicPath)) {
+        if (!mkdir($publicPath, recursive: true)) {
+            throw new Exception(sprintf('Could not create: %s', $publicPath));
+        }
+    }
+}
+
+/**
+ * @param  SolutionType[]  $solutionTypes
+ */
+function generateChallengeIntro(Challenge $challenge, array $solutionTypes): void
+{
+    assertChallengePublicPath($challenge);
+
+
+    static $template = <<<'HTML'
+<div class="challenge-intro">
+    <h1 class="challenge-intro__title">
+        <time datetime="%4$s">%4$s</time>
+        %1$s
+    </h1>
+    <a href="%5$s" target="_blank">Newsletter link</a>
+    <div class="challenge-intro__description">%2$s</div>
+    <div class="challenge-intro__solutions">%3$s</div>
+</div>
+HTML;
+
+    static $solutionLinkTemplate = <<<'HTML'
+<a
+    href="https://github.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s"
+    hx-get="https://raw.githubusercontent.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s"
+    class="solution-link"
+>
+ %3$s
+ </a>
+HTML;
+
+
+    $solutionsHtml = count($solutionTypes) === 0
+        ? '<p>No solutions yet.</p>'
+        : implode(' ',
+            array_map(
+                fn(SolutionType $type) => sprintf(
+                    $solutionLinkTemplate,
+                    $challenge->date,
+                    $type->filename(),
+                    $type->label(),
+                    $challenge->link,
+                ),
+                $solutionTypes
+            )
+        );
+
+    $introHtml = sprintf(
+        $template,
+        $challenge->title,
+        $challenge->content,
+        $solutionsHtml,
+        $challenge->date,
+        $challenge->link,
+    );
+
+    $introPath = sprintf(
+        __DIR__.'/../../public/challenges/%s/intro.html',
+        $challenge->date
+    );
+
+    file_put_contents($introPath, $introHtml);
+
+
 }
