@@ -19,6 +19,9 @@ function cachedGetContents(string $path): string
         return file_get_contents($tmpPath);
     }
 
+    // Be kind to the server.
+    sleep(1);
+
     $contents = file_get_contents($path);
 
     if (empty($contents)) {
