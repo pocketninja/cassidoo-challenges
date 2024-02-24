@@ -34,8 +34,17 @@
         }
 
         .challenge-intro {
-            padding-bottom: var(--gutter);
-            border-bottom: 1px dashed currentColor;
+            border-radius: 0.25rem;
+            padding: var(--gutter);
+        }
+
+        .challenge-intro--solved {
+            background-color: aquamarine;
+        }
+
+        .challenge-intro--unsolved {
+            background-color: #ececec;
+            opacity: 0.5;
         }
 
         .challenge-intro__date {
@@ -55,6 +64,15 @@
             * {
                 margin: 0;
             }
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+            border: 1px solid currentColor;
+            padding: 1rem;
+            border-radius: 0.25rem;
+            background-color: #f4f4f4;
         }
     </style>
     <script>

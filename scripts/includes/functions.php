@@ -241,7 +241,7 @@ function generateChallengeIntro(Challenge $challenge, array $solutionTypes): voi
 
     //@TODO If ever necessary/worth it, extract these out to template files, with tokens.
     static $template = <<<'HTML'
-<div class="challenge-intro">
+<div class="challenge-intro challenge-intro--%6$s">
     <h1 class="challenge-intro__title">
         <time class="challenge-intro__date" datetime="%4$s">%4$s</time>
         %1$s
@@ -286,6 +286,7 @@ HTML;
         $solutionsHtml,
         $challenge->date,
         $challenge->link,
+        count($solutionTypes) > 0 ? 'solved' : 'unsolved'
     );
 
     $introPath = sprintf(
