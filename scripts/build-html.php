@@ -28,7 +28,12 @@ foreach ($challengesDirectory as $challengeDirectory) {
 
     generateChallengeIntro($challenge, $solutionTypes);
 
-    line(' --> Generated intro with %d solution(s)', count($solutionTypes));
+    line(' --> Generated intro for %d solution(s)', count($solutionTypes));
+
+    foreach ($solutionTypes as $solutionType) {
+        generateSolutionHtml($challenge, $solutionType);
+        line(' ----> Generated solution for: %s', $solutionType->value);
+    }
 }
 
 // Generate the overall index to be read into index.html.

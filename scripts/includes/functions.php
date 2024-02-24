@@ -87,8 +87,9 @@ function discoverChallengeContent(DOMXPath $xpath): ?string
     $content = [];
 
     $currentElement = $startElement->item(0);
+    $bail = false;
 
-    while ($currentElement !== null) {
+    while ($currentElement !== null && $bail === false) {
         // Examples always end with a <hr>.
         if ($currentElement->nodeName === 'hr') {
             break;
@@ -115,6 +116,7 @@ function discoverChallengeContent(DOMXPath $xpath): ?string
 
             if ($currentElement->nodeName === 'div' && $currentElement->getAttribute('class') === 'codehilite') {
                 $textContent = sprintf('<pre>%s</pre>', htmlentities($textContent));
+                $bail = true;
             }
 
             $content[] = $textContent;
@@ -133,7 +135,7 @@ function discoverChallengeContent(DOMXPath $xpath): ?string
     $content = implode(PHP_EOL, $content);
 
     // Trim the intro.
-    return preg_replace('`\s*this week.s question:?\s*`i', '', $content);
+    return preg_replace('`\s*this week[^q]+question:?\s*`i', '', $content);
 }
 
 function discoverDate(DOMXPath $xpath): ?string
@@ -237,23 +239,24 @@ function generateChallengeIntro(Challenge $challenge, array $solutionTypes): voi
 {
     assertChallengePublicPath($challenge);
 
-
+    //@TODO If ever necessary/worth it, extract these out to template files, with tokens.
     static $template = <<<'HTML'
 <div class="challenge-intro">
     <h1 class="challenge-intro__title">
-        <time datetime="%4$s">%4$s</time>
+        <time class="challenge-intro__date" datetime="%4$s">%4$s</time>
         %1$s
     </h1>
-    <a href="%5$s" target="_blank">Newsletter link</a>
-    <div class="challenge-intro__description">%2$s</div>
     <div class="challenge-intro__solutions">%3$s</div>
+    <div class="challenge-intro__description">%2$s</div>
+    <a href="%5$s" target="_blank" class="challenge-intro__link">Newsletter link</a>
 </div>
 HTML;
 
     static $solutionLinkTemplate = <<<'HTML'
 <a
     href="https://github.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s"
-    hx-get="https://raw.githubusercontent.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s"
+    hx-get="/challenges/%1$s/%2$s.html"
+    hx-target="#code-dialog .code-dialog__content"
     class="solution-link"
 >
  %3$s
@@ -291,6 +294,33 @@ HTML;
     );
 
     file_put_contents($introPath, $introHtml);
+}
+
+function generateSolutionHtml(Challenge $challenge, SolutionType $solutionType): void
+{
+    assertChallengePublicPath($challenge);
+
+    static $solutionHtmlTemplate = <<<'HTML'
+<pre class="challenge-solution">%s</pre>
+HTML;
 
 
+    $solutionOutputPath = sprintf(
+        __DIR__.'/../../public/challenges/%s/%s.html',
+        $challenge->date,
+        $solutionType->filename()
+    );
+
+    $solutionPath = sprintf(
+        __DIR__.'/../../challenges/%s/%s',
+        $challenge->date,
+        $solutionType->filename()
+    );
+
+    $solutionHtml = sprintf(
+        $solutionHtmlTemplate,
+        htmlentities(file_get_contents($solutionPath))
+    );
+
+    file_put_contents($solutionOutputPath, $solutionHtml);
 }
