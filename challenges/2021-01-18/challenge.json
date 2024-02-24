@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\uddde \"If you don't design your own life plan, chances are you'll fall into someone else's plan.\" - Jim Rohn",
+    "date": "2021-01-18",
+    "content": "<p>Design a hashmap without using any built-in libraries. You should include the following functions:<\/p>\n<p>put(key, value): Insert a (key, value) pair into the hashmap. If the value already exists, update the value.\nget(key): Returns the value to which key is mapped, or -1 if this map contains nothing for key.\nremove(key): Remove the mapping for the value in key if it exists.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-dont-design-your-own-life-plan-chances-are\/"
+}

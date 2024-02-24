@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udda7  \"To avoid criticism, do nothing, say nothing, be nothing.\" - Elbert Hubbard",
+    "date": "2020-10-12",
+    "content": "<p>Given a basic Lisp-like string expression, parse it (where the available functions are add, subtract, multiply, and divide, and they all take in 2 values).\nExamples:<\/p>\n<p>$ babyLisp('(add 1 2)')\n$ 3\n\n$ babyLisp('(multiply 4 (add 2 3))')\n$ 20<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-avoid-criticism-do-nothing-say-nothing-be\/"
+}

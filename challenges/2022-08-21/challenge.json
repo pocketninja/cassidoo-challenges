@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uddc8 \"Find something you're passionate about and keep tremendously interested in it.\" - Julia Child",
+    "date": "2022-08-21",
+    "content": "<p>Given a string that represents a markdown table, return a formatted markdown table. A formatted markdown table means that the width of each column is the width of the longest cell in the column.<\/p>\n<p>Example:<\/p>\n<pre>Input:\n| Syntax | Description |\n| --- | ----------- |\n| Header | Title |\n| Paragraph | Text |\n\nOutput:\n| Syntax    | Description |\n| --------- | ----------- |\n| Header    | Title       |\n| Paragraph | Text        |<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/find-something-youre-passionate-about-and-keep\/"
+}

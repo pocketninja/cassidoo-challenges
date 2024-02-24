@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf4b \"Forgiveness is giving up the hope that the past could have been any different.\" - Oprah Winfrey",
+    "date": "2023-07-16",
+    "content": "<p>Given a string, separate it into groups of non-space equal characters, sorted.<\/p>\n<p>Example:<\/p>\n<pre>&gt; explodeString(&#039;Ahh, abracadabra!&#039;)\n&gt; [&#039;!&#039;,&#039;,&#039;,&#039;A&#039;,&#039;aaaaa&#039;,&#039;bb&#039;,&#039;c&#039;,&#039;d&#039;,&#039;hh&#039;,&#039;rr&#039;]\n\n&gt; explodeString(&#039;\\o\/\\o\/&#039;)\n&gt; [&#039;\/\/&#039;,&#039;\\\\&#039;,&#039;oo&#039;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/forgiveness-is-giving-up-the-hope-that-the-past\/"
+}

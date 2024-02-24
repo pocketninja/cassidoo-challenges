@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udef4 \"People rarely succeed unless they have fun in what they are doing.\" - Dale Carnegie",
+    "date": "2020-12-07",
+    "content": "<p>Given two non-negative integers n1 and n2 represented as strings, return the product of n1 and n2, also represented as a string. Neither input will start with 0, and don't just convert it to an integer and do the math that way.<\/p>\n<p>Examples:<\/p>\n<p>$ stringMultiply(\"123\", \"456\")\n$ \"56088\"<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/people-rarely-succeed-unless-they-have-fun-in\/"
+}

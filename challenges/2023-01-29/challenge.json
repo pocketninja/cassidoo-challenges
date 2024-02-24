@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd66 \"If you want to feel good, you have to go out and do some good.\" - Oprah Winfrey",
+    "date": "2023-01-29",
+    "content": "<p>Given a positive integer, generate an array in which every element is an array that goes from 1 to the index of that array.<\/p>\n<p>Example:<\/p>\n<pre>&gt; generateArrays(4)\n&gt; [[1], [1, 2], [1, 2, 3], [1, 2, 3, 4]]\n\n&gt; generateArrays(1)\n&gt; [[1]]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-want-to-feel-good-you-have-to-go-out-and\/"
+}

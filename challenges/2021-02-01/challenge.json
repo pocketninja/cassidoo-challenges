@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc1c \"The most certain sign of wisdom is cheerfulness.\" - Michel de Montaigne",
+    "date": "2021-02-01",
+    "content": "<p>You are given a snapshot of a queue of stocks that have changing prices coming in from a stream. Remove the outdated stocks from the queue.<\/p>\n<p>Example:<\/p>\n<p>$ snapshot = [\n  { sym: 'GME', cost: 280 },\n  { sym: 'PYPL', cost: 234 },\n  { sym: 'AMZN', cost: 3206 },\n  { sym: 'AMZN', cost: 3213 },\n  { sym: 'GME', cost: 325 }\n]\n$ stockQueue(snapshot)\n$ [{ sym: 'PYPL', cost: 234 },\n   { sym: 'AMZN', cost: 3213 },\n   { sym: 'GME', cost: 325 }]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-most-certain-sign-of-wisdom-is-cheerfulness\/"
+}

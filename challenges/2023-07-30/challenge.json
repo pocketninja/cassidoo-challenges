@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcaf \"Science is organized knowledge. Wisdom is organized life.\" - Will Durant",
+    "date": "2023-07-30",
+    "content": "<p>Given two strings s and t, return true if t is an anagram of s, and false otherwise. Try this in a language you're not comfortable with!<\/p>\n<p>Example:<\/p>\n<pre>&gt; isAnagram(&#039;barbie&#039;, &#039;oppenheimer&#039;)\n&gt; false\n\n&gt; isAnagram(&#039;race&#039;, &#039;care&#039;)\n&gt; true<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/science-is-organized-knowledge-wisdom-is\/"
+}

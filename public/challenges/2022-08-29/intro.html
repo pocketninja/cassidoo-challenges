@@ -1,0 +1,28 @@
+<div class="challenge-intro">
+    <h1 class="challenge-intro__title">
+        <time class="challenge-intro__date" datetime="2022-08-29">2022-08-29</time>
+        🍟 "The greatest education in the world is watching the masters at work." - Michael Jackson
+    </h1>
+    <div class="challenge-intro__solutions"><p>No solutions yet.</p></div>
+    <div class="challenge-intro__description"><p>is brought to you by Applitools!
+Write a set of tests for a function that adds numbers from many invocations, until it sees an empty invocation. Consider edge cases, side effects, incorrect usage of the function, and expected values!</p>
+<p>Function to test:</p>
+<pre>function addg(a) {
+    if (a === undefined) return a;
+    return function g(b) {
+        if (b !== undefined) {
+            return addg(a+b);
+        }
+        return a;
+    };
+}
+
+// Example usage:
+/*
+  addg()           // undefined
+  addg(2)()        // 2
+  addg(2)(7)()     // 9
+  addg(3)(4)(0)()  // 7
+*/</pre></div>
+    <a href="https://buttondown.email/cassidoo/archive/the-greatest-education-in-the-world-is-watching/" target="_blank" class="challenge-intro__link">Newsletter link</a>
+</div>

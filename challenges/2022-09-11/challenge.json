@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc20 \"I enjoy the time passing. I think it's a privilege to be in friendship with time.\" - Agn\u00e8s Varda",
+    "date": "2022-09-11",
+    "content": "<p>Remember the bouncing DVD logo? Given the dimensions of the logo, its initial coordinates, and the size of a screen, write a function that will determine if its next collision will hit the corner of the screen. Assume it is initially moving southeast with a slope of -1. Extra credit, figure out how many bounces\/collisions it will take to hit a corner!<\/p>\n<p>Example:<\/p>\n<pre>let dimensions = [5,5]\nlet initialCoordinates = [0,0] \/\/ you decide which part of the logo the coords map to\nlet screenSize = [100,100]\n\n&gt; cornerHit(dimensions, initialCoordinates, screenSize)\n&gt; true \/\/ in one collision\n\n&gt; cornerHit(dimensions, [45,70], [400,200])\n&gt; false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-enjoy-the-time-passing-i-think-its-a-privilege\/"
+}

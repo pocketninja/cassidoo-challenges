@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\uddfa\ud83c\uddf8 \"A man who has committed a mistake and doesn\u2019t correct it, is committing another mistake.\" - Confucius",
+    "date": "2020-11-01",
+    "content": "<p>You have a character who jumps forward n number of units at a time, and an array representing the road in front of them (where 0 is a flat piece of road, and 1 is an obstacle). Return true or false if your character can jump to the end without hitting an obstacle in front of them.\nExamples:<\/p>\n<p>$ characterJump(3, [0,1,0,0,0,1,0])\n$ true \/\/ no hits\n\n$ characterJump(4, [0,1,1,0,1,0,0,0,0])\n$ false \/\/ hits obstacle at position 4<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/a-man-who-has-committed-a-mistake-and-doesnt\/"
+}

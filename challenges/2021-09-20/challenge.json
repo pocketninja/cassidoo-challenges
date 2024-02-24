@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude9d \"To invent, you need a good imagination and a pile of junk.\" - Thomas A. Edison",
+    "date": "2021-09-20",
+    "content": "<p>Given a string of HTML, detect and print all the HTML tags, attributes and values of attributes.<\/p>\n<p>Example:<\/p>\n<pre>$ parseHTML(`&lt;p&gt;&lt;img src=&quot;https:\/\/i.imgur.com\/LSG9xg3.jpeg&quot; \/&gt;&lt;\/p&gt;`)\n$ [{ tag: &#039;p&#039; }, { tag: &#039;img&#039;, attributes: [{&#039;src&#039;: &#039;https:\/\/i.imgur.com\/LSG9xg3.jpeg&#039;}] }]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-invent-you-need-a-good-imagination-and-a-pile\/"
+}

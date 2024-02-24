@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd29 \"Because of your smile, you make life more beautiful.\" - Th\u00edch Nh\u1ea5t H\u1ea1nh",
+    "date": "2021-05-31",
+    "content": "<p>Given a list, return a list of all its prefixes in ascending order of their length. You\u2019re essentially implementing the inits function in Haskell!<\/p>\n<p>Example:<\/p>\n<pre>$ inits([4, 3, 2, 1])\n$ [[], [4], [4,3], [4,3,2], [4,3,2,1]]\n\n$ inits([144])\n$ [[], [144]]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/because-of-your-smile-you-make-life-more\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd6e \"Let perseverance be your engine and hope your fuel.\" - H. Jackson Brown Jr.",
+    "date": "2020-05-25",
+    "content": "<p>Build a very simple text editor. Your editor should contain an empty string S at first, and have the functions append(t) (add t to the end of S), delete(n) (delete the last n characters of S), undo() (revert S to the state it was before an append or delete), as well as any other functions you might want to include.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/let-perseverance-be-your-engine-and-hope-your\/"
+}

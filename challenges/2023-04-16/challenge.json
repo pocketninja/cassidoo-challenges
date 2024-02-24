@@ -1,0 +1,6 @@
+{
+    "title": "\u2614\ufe0f \"We are what we believe we are.\" - C.S. Lewis",
+    "date": "2023-04-16",
+    "content": "<p>Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.<\/p>\n<p>Example:<\/p>\n<pre>&gt; maxPointsOnLine([[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]])\n&gt; 4<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/9753\/"
+}

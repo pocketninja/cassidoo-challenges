@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcf8 \"People who are truly strong lift others up. People who are truly powerful bring others together.\" - Michelle Obama",
+    "date": "2024-02-05",
+    "content": "<p>Write a function that makes an ASCII \"honeycomb\" shape of a given size.<\/p>\n<p>Example:<\/p>\n<pre>&gt; honeycomb(2)\n      __\n   __\/  \\__\n  \/  \\__\/  \\\n  \\__\/  \\__\/\n  \/  \\__\/  \\\n  \\__\/  \\__\/\n     \\__\/\n\n&gt; honeycomb(4)\n          ____\n         \/    \\\n    ____\/      \\____\n   \/    \\      \/    \\\n  \/      \\____\/      \\\n  \\      \/    \\      \/\n   \\____\/      \\____\/\n   \/    \\      \/    \\\n  \/      \\____\/      \\\n  \\      \/    \\      \/\n   \\____\/      \\____\/\n        \\      \/\n         \\____\/<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/people-who-are-truly-strong-lift-others-up-people\/"
+}

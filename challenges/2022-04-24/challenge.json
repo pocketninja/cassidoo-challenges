@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf9e \"The creation of a thousand forests is in one acorn.\" - Ralph Waldo Emerson",
+    "date": "2022-04-24",
+    "content": "<p>Given an array of intervals, merge the overlapping intervals, and return an array of the resulting intervals.<\/p>\n<p>Example:<\/p>\n<pre>$ mergeIntervals([[1,4],[2,6],[8,10],[15,20]])\n$ [[1,6],[8,10],[15,20]]\n\n$ mergeIntervals([[1,2],[2,7]])\n$ [[1,7]]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-creation-of-a-thousand-forests-is-in-one\/"
+}

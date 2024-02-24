@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfd7 \"A sense of humor is just common sense, dancing.\" - William James",
+    "date": "2021-09-06",
+    "content": "<p>Given two non-negative integers n1 and n2 represented as strings, return the product of n1 and n2, also represented as a string. Twist: You can\u2019t use any built-in language integer libraries nor convert the inputs to integers directly.<\/p>\n<p>Example:<\/p>\n<pre>$ stringProduct(&quot;123&quot;, &quot;456&quot;)\n$ &quot;56088&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/a-sense-of-humor-is-just-common-sense-dancing\/"
+}

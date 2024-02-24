@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc08\u200d\u2b1b \"If you're passionate about your work, it makes the people around you want to be involved too.\" - Wanda Sykes",
+    "date": "2023-06-19",
+    "content": "<p>Given some JSON data, calculate the maximum depth reached. Both arrays and dictionaries increase the depth! If the input is invalid data, the response should be undefined (you decide how you want that to return).<\/p>\n<p>Example:<\/p>\n<pre>&gt; depthJSON([])\n&gt; 1\n\n&gt; depthJSON([1, 2, 3, 4, 5])\n&gt; 1\n\n&gt; depthJSON([{&quot;a&quot;: []}, [&quot;abc&quot;]])\n&gt; 3<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/5640\/"
+}

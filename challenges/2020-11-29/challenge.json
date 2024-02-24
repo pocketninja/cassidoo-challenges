@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udecb \"It's not how everyone views you, but how you view yourself.\" - Natalie Portman",
+    "date": "2020-11-29",
+    "content": "<p>Given an array of integers and a target value, return the number of pairs of array elements that have a difference equal to a target value.<\/p>\n<p>Examples:<\/p>\n<p>$ arrayDiff([1, 2, 3, 4], 1)\n$ 3 \/\/ 2 - 1 = 1, 3 - 2 = 1, and 4 - 3 = 1<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/its-not-how-everyone-views-you-but-how-you-view\/"
+}

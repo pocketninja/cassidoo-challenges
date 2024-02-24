@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfa7 \"Hope is a gift you don\u2019t have to surrender, a power you don\u2019t have to throw away.\" - Rebecca Solnit",
+    "date": "2022-10-02",
+    "content": "<p>Given two integers, generate a \u201cfibonacci-like\u201d sequence of n digits (where the next number in the pattern is the sum of the previous two numbers). Extra credit: Given a sequence, determine if the sequence is \u201cfibonacci-like\u201d.<\/p>\n<p>Example:<\/p>\n<pre>let n = 5\n\n&gt; fibLike(10, 20, n)\n&gt; [10, 20, 30, 50, 80]\n\n&gt; fibLike(3, 7, n)\n&gt; [3, 7, 10, 17, 27]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/hope-is-a-gift-you-dont-have-to-surrender-a-power\/"
+}

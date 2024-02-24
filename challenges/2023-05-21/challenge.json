@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf47 \"If you really want something you can figure out how to make it happen.\" - Cher",
+    "date": "2023-05-21",
+    "content": "<p>Given a string, calculate the score that it would get in a game of Scrabble. For extra credit, try verifying if the string is a valid word, or take into account premium squares!<\/p>\n<p>Scoring and example:<\/p>\n<pre>1 point: E, A, I, O, N, R, T, L, S, U\n2 points: D, G\n3 points: B, C, M, P\n4 points: F, H, V, W, Y\n5 points: K\n8 points: J, X\n10 points: Q, Z\n\n&gt; scrabbleScore(&#039;FIZZBUZZ&#039;)\n&gt; 49<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-really-want-something-you-can-figure-out\/"
+}

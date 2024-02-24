@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf42 \"No matter what people tell you, words and ideas can change the world.\" - Robin Williams",
+    "date": "2023-10-15",
+    "content": "<p>Given two strings s and t, determine if they are isomorphic. Two strings are isomorphic if there is a one-to-one mapping possible for every character of the first string to every character of the second string.<\/p>\n<p>Example:<\/p>\n<pre>&gt; isIsomorphic(&#039;abb&#039;, &#039;cdd&#039;)\n&gt; true \/\/ &#039;a&#039; maps to &#039;c&#039; and &#039;b&#039; maps to &#039;d&#039;\n\n&gt; isIsomorphic(&#039;cassidy&#039;, &#039;1234567&#039;)\n&gt; false \/\/ &#039;s&#039; cannot have a mapping to both &#039;3&#039; and &#039;4&#039;\n\n&gt; isIsomorphic(&#039;cass&#039;, &#039;1233&#039;)\n&gt; true<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/no-matter-what-people-tell-you-words-and-ideas\/"
+}

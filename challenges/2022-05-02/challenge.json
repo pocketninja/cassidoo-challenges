@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udef5 \"Around every corner, always protect the engine that powers you.\" - Dwayne Johnson",
+    "date": "2022-05-02",
+    "content": "<p>Implement a simple version of autocomplete, where given an input string s and a dictionary of words dict, return the word(s) in dict that partially match s (or an empty string if nothing matches).<\/p>\n<p>Example:<\/p>\n<pre>let dict = [&#039;apple&#039;, &#039;banana&#039;, &#039;cranberry&#039;, &#039;strawberry&#039;]\n\n$ simpleAutocomplete(&#039;app&#039;)\n$ [&#039;apple&#039;]\n\n$ simpleAutocomplete(&#039;berry&#039;)\n$ [&#039;cranberry&#039;, &#039;strawberry&#039;]\n\n$ simpleAutocomplete(&#039;fart&#039;)\n$ []<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/around-every-corner-always-protect-the-engine\/"
+}

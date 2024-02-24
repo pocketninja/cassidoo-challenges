@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc9e \"Nothing will work unless you do.\" - Maya Angelou",
+    "date": "2022-05-09",
+    "content": "<p>You went on a vacation with friends. Each of you paid for certain meals on the trip for the group. Write a function that determines who owes money to whom so that everyone pays equally.<\/p>\n<p>Example:<\/p>\n<pre>let receipts = [\n  { name: &#039;Ximena&#039;, paid: 45 },\n  { name: &#039;Clara&#039;, paid: 130 },\n  { name: &#039;Ximena&#039;, paid: 100 },\n  { name: &#039;Cassidy&#039;, paid: 140 },\n  { name: &#039;Cassidy&#039;, paid: 76 },\n  { name: &#039;Clara&#039;, paid: 29 },\n  { name: &#039;Ximena&#039;, paid: 20 },\n]\n\n$ whoOwes(receipts)\n$ &#039;Clara owes Cassidy $21, Ximena owes Cassidy $15&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/nothing-will-work-unless-you-do-maya-angelou\/"
+}

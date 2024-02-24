@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf87 \"The scariest moment is always just before you start.\" - Stephen King",
+    "date": "2018-01-01",
+    "content": "<p>Last time, I had you make a Christmas tree function!\n\nMy favorite solution was from @StewartUlm, and you can see it here.\u00a0Given a number n, find whether all digits of n divide it.\n\nFor example:<\/p>\n<p>digitsDivide(128)\n> true\ndigitsDivide(130)\n> false\ndigitsDivide(4)\n> true<\/p>\n<p>\u00a0<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-scariest-moment-is-always-just-before-you\/"
+}

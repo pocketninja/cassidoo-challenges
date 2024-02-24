@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf3c \"Generosity is giving more than you can, and pride is taking less than you need.\" - Khalil Gibran",
+    "date": "2021-09-26",
+    "content": "<p>Given a string expression with the symbols T for true, F for false, & for AND, | for OR, and ^ for XOR, count the number of ways we can parenthesize the expression so that its value evaluates to true.<\/p>\n<p>Example:<\/p>\n<pre>$ evaluateExp(&#039;T|T&amp;F^T&#039;)\n$ 4 \/\/ ((T|T)&amp;(F^T)), (T|(T&amp;(F^T))), (((T|T)&amp;F)^T) and (T|((T&amp;F)^T))<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/generosity-is-giving-more-than-you-can-and-pride\/"
+}

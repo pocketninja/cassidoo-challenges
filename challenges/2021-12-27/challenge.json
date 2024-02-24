@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf86 \"You can get excited about the future. The past won't mind.\" - Hillary DePiano",
+    "date": "2021-12-27",
+    "content": "<p>You\u2019re in charge of the fireworks display, and you have a list of fireworks to shoot off. You want to make sure you don\u2019t fire the same colors twice in a row. Given an array of fireworks, return a valid firing order. You decide how you want an impossible solution to work!<\/p>\n<p>Example:<\/p>\n<pre>$ orderFireworks([&#039;green&#039;,&#039;green&#039;,&#039;green&#039;,&#039;red&#039;,&#039;red&#039;,&#039;blue&#039;])\n$ [&#039;green&#039;,&#039;red&#039;,&#039;green&#039;,&#039;red&#039;,&#039;green&#039;,&#039;blue&#039;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/you-can-get-excited-about-the-future-the-past\/"
+}

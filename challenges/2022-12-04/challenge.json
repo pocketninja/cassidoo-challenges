@@ -1,0 +1,6 @@
+{
+    "title": "\u26f5\ufe0f \"To attract something that you want, become as joyful as you think that thing would make you.\" - Martha Beck",
+    "date": "2022-12-04",
+    "content": "<p>The Settlers of Catan board game has 18 number hexes (two each of 3, 4, 5, 6, 8, 9, 10, 11, and one each of 2 and 12), and one desert hex in a large hexagon formation. Generate a valid randomized Catan board in which 6s and 8s cannot touch each other.<\/p>\n<p>Examples of valid boards:<\/p>\n<pre>\/\/ These use A B C for 10 11 12, respectively, and . for the empty desert hex.\n\n\n  B 9 A\n 5 6 C 8\n6 4 B 5 3\n 2 8 9 3\n  A . 4\n\n  B B C\n 3 A 3 A\n2 4 6 . 6\n 4 5 9 9\n  8 5 8\n\n  6 3 8\n 2 4 5 A\n5 9 . 6 9\n A B 3 C\n  8 4 B<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-attract-something-that-you-want-become-as\/"
+}

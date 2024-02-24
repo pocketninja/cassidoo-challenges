@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc99 \"Change your thoughts and you change your world.\" - Norman Vincent Peale",
+    "date": "2022-02-28",
+    "content": "<p>Given a 2D array of 0s and 1s, return the size of the largest rectangle of 1s in the array.<\/p>\n<p>Example:<\/p>\n<pre>let islands = [\n[0,0,0,1,0]\n[1,1,0,0,1]\n[1,1,0,0,0]\n[0,0,1,0,0]\n]\n\n$ largestRect(islands)\n$ &#039;2x2&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/change-your-thoughts-and-you-change-your-world\/"
+}

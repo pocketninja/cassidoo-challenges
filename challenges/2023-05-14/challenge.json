@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf25 \"Wishing joy and\/or comfort today, whatever your story may be.\" - Mari Andrew",
+    "date": "2023-05-14",
+    "content": "<p>Write a function to find out whether the binary representation of a number is palindrome or not.<\/p>\n<p>Example:<\/p>\n<pre>&gt; binaryPal(5)\n&gt; true\n\n&gt; binaryPal(10)\n&gt; false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/1545\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udded \"If you don\u2019t risk anything, you risk even more.\" - Erica Jong",
+    "date": "2021-03-07",
+    "content": "<p>Given a string array representing a tic-tac-toe board, return true if and only if it\u2019s possible to reach this board position during the course of a valid tic-tac-toe game. You can assume the first player will always play X first, and players will only fill in blank spaces. The game will end if there is 3 in a row, column, or diagonal, or if the board is full.<\/p>\n<p>Example:<\/p>\n<p>$ validTTTPosition([\"XOX\", \" X \", \"   \"])\n$ false\n$ validTTTPosition([\"XOX\", \"O O\", \"XOX\"])\n$ true\n$ validTTTPosition([\"OOO\", \"   \", \"XXX\"])\n$ false\n$ validTTTPosition([\"  O\", \"   \", \"   \"])\n$ false<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-dont-risk-anything-you-risk-even-more\/"
+}

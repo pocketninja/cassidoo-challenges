@@ -1,0 +1,6 @@
+{
+    "title": "\u23e9 \"Life can only be understood backwards; but it must be lived forwards.\" - S\u00f8ren Kierkegaard",
+    "date": "2021-01-11",
+    "content": "<p>Given a n x m binary matrix filled with 0s and 1s, find the largest rectangle containing only 1s and return its area.<\/p>\n<p>Example:<\/p>\n<p>$ matrix =\n  [\n  [\"1\",\"0\",\"1\",\"0\",\"0\"],\n  [\"1\",\"0\",\"1\",\"1\",\"1\"],\n  [\"1\",\"1\",\"0\",\"1\",\"1\"],\n  [\"1\",\"0\",\"0\",\"1\",\"0\"]\n  ]\n$ largestRect(matrix)\n$ 4<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/life-can-only-be-understood-backwards-but-it-must\/"
+}

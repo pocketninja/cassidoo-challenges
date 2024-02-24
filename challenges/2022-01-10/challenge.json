@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uddba \"I had chosen to use my work as a reflection of my values.\" - Sidney Poitier",
+    "date": "2022-01-10",
+    "content": "<p>is sponsored by Sourcegraph!\nGiven a string s, you can transform every letter individually to be lowercase or uppercase. Return a list of all possible permutations you could create from s.<\/p>\n<p>Example:<\/p>\n<pre>$ capPermutations(&quot;ab2&quot;)\n$ [&quot;ab2&quot;,&quot;aB2&quot;,&quot;Ab2&quot;,&quot;AB2&quot;]\n\n$ capPermutations(&quot;35p&quot;)\n$ [&quot;35p&quot;,&quot;35P&quot;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-had-chosen-to-use-my-work-as-a-reflection-of-my\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uddc1 \"To pay attention, this is our endless and proper work.\" - Mary Oliver",
+    "date": "2021-07-12",
+    "content": "<p>Given an IPv4 address and a netmask in CIDR notation, return a boolean specifying whether the IP address is inside the given range.<\/p>\n<p>Example:<\/p>\n<pre>$ inRange(&quot;192.168.4.27&quot;, &quot;192.168.0.0\/16&quot;)\n$ true\n\n$ inRange(&quot;192.168.4.27&quot;, &quot;192.168.1.0\/24&quot;)\n$ false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-pay-attention-this-is-our-endless-and-proper\/"
+}

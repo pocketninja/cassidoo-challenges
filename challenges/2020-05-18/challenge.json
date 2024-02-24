@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd6c \"The single raindrop never feels responsible for the flood.\" - Douglas Adams",
+    "date": "2020-05-18",
+    "content": "<p>Design a simplified version of Twitter, where users can post tweets, follow\/unfollow others, and is able to see the 10 most recent tweets in the user's news feed.\n \nSome useful functions to include would be getNewsFeed(userid), postTweet(userid, tweet), follow(follower, followee), and unfollow(follower, followee).<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-single-raindrop-never-feels-responsible-for\/"
+}

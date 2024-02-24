@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udde9 \"A ship in port is safe, but that's not what ships are for.\" - Grace Hopper",
+    "date": "2023-08-28",
+    "content": "<p>Given a sequence of numbers, generate a \"count and say\" string.<\/p>\n<p>Example:<\/p>\n<pre>&gt; countAndSay(112222555)\n&gt; &quot;two 1s, then four 2s, then three 5s&quot;\n\n&gt; countAndSay(3333333333)\n&gt; &quot;ten 3s&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/a-ship-in-port-is-safe-but-thats-not-what-ships\/"
+}

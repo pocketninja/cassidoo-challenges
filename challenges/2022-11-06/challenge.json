@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd4e \"I don't think of all the misery but of the beauty that still remains.\" - Anne Frank",
+    "date": "2022-11-06",
+    "content": "<p>Given a positive integer n, return all of its anti-divisors. Anti-divisors are numbers that do not divide a number by the largest possible margin (1 is not an anti-divisor of any number). More information here!<\/p>\n<p>Example:<\/p>\n<pre>&gt; antidivisor(1)\n&gt; []\n\n&gt; antidivisor(3)\n&gt; [2]\n\n&gt; antidivisor(5)\n&gt; [2,3]\n\n&gt; antidivisor(10)\n&gt; [3,4,7]\n\n&gt; antidivisor(234)\n&gt; [4,7,12,36,52,67,156]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-dont-think-of-all-the-misery-but-of-the-beauty-4964\/"
+}

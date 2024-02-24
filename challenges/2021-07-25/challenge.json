@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcc0 \"Computers are useless. They can only give you answers.\" - Pablo Picasso",
+    "date": "2021-07-25",
+    "content": "<p>Given a positive integer n, write a function that finds the number of zeros at the end of n! in base 10.<\/p>\n<p>Example:<\/p>\n<pre>$ zerosEndingFactorial(1)\n$ 0\n\n$ zerosEndingFactorial(5)\n$ 1\n\n$ zerosEndingFactorial(100)\n$ 24<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/computers-are-useless-they-can-only-give-you\/"
+}

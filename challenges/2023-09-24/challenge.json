@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude9c \"I love mistakes because it's the only way you learn.\" - Jane Fonda",
+    "date": "2023-09-24",
+    "content": "<p>Using the Pok\u00e9API (or your own local setup) write a function that takes in a Pok\u00e9mon type, and returns what that type is weak against, and strong against. Here is the listing of types and here's an example JSON for the fighting type!<\/p>\n<p>Example:<\/p>\n<pre>&gt; typeMatchup(&#039;fighting&#039;)\n&gt; &quot;Weak against flying, psychic, and fairy. Strong against normal, rock, steel, ice, and dark.&quot;\n\n&gt; typeMatchup(&#039;cassidy&#039;)\n&gt; &quot;This is not a valid Pok&eacute;mon type, she&#039;s weak against everything.&quot;\n\/\/ You can put whatever you want in this response, heh.<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-love-mistakes-because-its-the-only-way-you\/"
+}

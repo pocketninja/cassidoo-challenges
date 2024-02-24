@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc1b \"I love to laugh.\" - Betty White",
+    "date": "2022-01-02",
+    "content": "<p>Given a list of Point objects (where a Point object has a name, and a list of names it is connected to), a starting Point object, and an ending Point object, return a possible path between the two Points. If there are multiple paths, return the shortest one. If there is no path, return \u201cno path\u201d.<\/p>\n<p>Example:<\/p>\n<pre>listOfPoints = [\n  { name: &quot;A&quot;, connections: [&quot;B&quot;, &quot;C&quot;] },\n  { name: &quot;B&quot;, connections: [&quot;A&quot;, &quot;E&quot;] },\n  { name: &quot;C&quot;, connections: [&quot;A&quot;, &quot;D&quot;] },\n  { name: &quot;D&quot;, connections: [&quot;C&quot;] },\n  { name: &quot;E&quot;, connections: [&quot;B&quot;, &quot;F&quot;] },\n  { name: &quot;F&quot;, connections: [&quot;E&quot;] },\n]\n\n$ pathBetweenPoints(listOfPoints, &quot;A&quot;, &quot;F&quot;)\n$ A -&gt; B -&gt; E -&gt; F\n\n$ pathBetweenPoints(listOfPoints, &quot;D&quot;, &quot;B&quot;)\n$ D -&gt; C -&gt; A -&gt; B<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-love-to-laugh-betty-white\/"
+}

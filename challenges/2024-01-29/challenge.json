@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc39 \"Maybe your weird is my normal. Who's to say?\" - Nicki Minaj",
+    "date": "2024-01-29",
+    "content": "<p>Write a function called daysBetween that takes in two dates, and returns the number of days between those dates. You can choose the date format you'd like to accept!<\/p>\n<p>Example:<\/p>\n<pre>&gt; daysBetween(&#039;Jan 1, 2024&#039;, &#039;Jan 29, 2024&#039;)\n&gt; 28\n\n&gt; daysBetween(&#039;Feb 29, 2020&#039;, &#039;Oct 31, 2023&#039;)\n&gt; 1340<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/maybe-your-weird-is-my-normal-whos-to-say-nicki\/"
+}

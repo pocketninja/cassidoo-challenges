@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc8c \"Discovering the truth about ourselves is a lifetime's work, but it's worth the effort.\" - Fred Rogers",
+    "date": "2022-07-25",
+    "content": "<p>Given two arrays A and B, return the indices at which the two arrays intersect. If the two arrays have no intersection at all, return null. Extra credit: how would you change your code if they were linked lists instead of arrays, if the input were the two head nodes, and you returned the intersection node?<\/p>\n<p>Example:<\/p>\n<pre>let listA = [1,4,5,6]\nlet listB = [2,3,4,5,6]\n\n&gt; findIntersection(listA, listB)\n&gt; [1, 2]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/discovering-the-truth-about-ourselves-is-a\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude87 \"Look for the ridiculous in everything, and you will find it.\" - Jules Renard",
+    "date": "2023-12-11",
+    "content": "<p>Given an array of integers, return the majority element. If there is no majority element, return if the array is majority even or odd numbers, and if there is none, say so.<\/p>\n<p>Example:<\/p>\n<pre>&gt; majority([3,1,4,1])\n&gt; &quot;1&quot;\n\n&gt; majority([33,44,55,66,77])\n&gt; &quot;Majority odds&quot;\n\n&gt; majority([1,2,3,4])\n&gt; &quot;No majority&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/look-for-the-ridiculous-in-everything-and-you\/"
+}

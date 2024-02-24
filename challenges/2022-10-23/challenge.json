@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udddb \"Everybody gets so much information all day long that they lose their common sense.\" - Gertrude Stein",
+    "date": "2022-10-23",
+    "content": "<p>Given an integer n, print a balanced binary tree with n leaf nodes using the characters \/, , and \\.<\/p>\n<p>Examples:<\/p>\n<pre>&gt; printTree(2)\n\n\/\\\n\n\/\/ or you could output something like:\n\n \/\\\n\/  \\\n\n&gt; printTree(3)\n\n \/\\\n\/\\ \\\n\n\/\/ or you could output something like:\n\n  \/\\\n \/ \/\\\n\/ \/  \\<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/everybody-gets-so-much-information-all-day-long\/"
+}

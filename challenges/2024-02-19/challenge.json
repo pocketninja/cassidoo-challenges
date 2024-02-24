@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude87 \"Don't let doubt stop you from getting where you want to be.\" - Jennifer Hudson",
+    "date": "2024-02-19",
+    "content": "<p>Given a string array, find the maximum product of word lengths where the words don't share any letters.<\/p>\n<p>Example:<\/p>\n<pre>&gt; wordLengthProduct([&quot;fish&quot;,&quot;fear&quot;,&quot;boo&quot;,&quot;egg&quot;,&quot;cake&quot;,&quot;abcdef&quot;])\n&gt; 16 \/\/ &quot;fish&quot; and &quot;cake&quot;\n\n&gt; wordLengthProduct([&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;])\n&gt; 0 \/\/ all of them share &quot;a&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/dont-let-doubt-stop-you-from-getting-where-you\/"
+}

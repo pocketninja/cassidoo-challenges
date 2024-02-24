@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude97 \"Not everything that is faced can be changed, but nothing can be changed until it is faced.\" - James Baldwin",
+    "date": "2023-08-20",
+    "content": "<p>Make a \"guessing game\" where there is a target number, and as the user makes guesses, the output returns higher or lower until the user is correct.<\/p>\n<p>Example usage:<\/p>\n<pre>Guess the number!\n&gt; 10\nhigher\n&gt; 20\nhigher\n&gt; 30\nlower\n&gt; 25\nhigher\n&gt; 27\nCorrect! You won in 5 guesses!<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/not-everything-that-is-faced-can-be-changed-but-1047\/"
+}

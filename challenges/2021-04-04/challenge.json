@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc30 \"To understand is to invent\" - Jean Piaget",
+    "date": "2021-04-04",
+    "content": "<p>Given an integer n and a sorted array of prime integers called primes, return the nth \u201csuper ugly number\u201d. A \u201csuper ugly number\u201d is a positive number whose all prime factors are in the array primes.<\/p>\n<p>Example:<\/p>\n<p>$ superUgly(1, [2,3,5])\n$ 1\n$ superUgly(11, [2,7,13,19])\n$ 28<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-understand-is-to-invent-jean-piaget\/"
+}

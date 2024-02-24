@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udee4\"You can\u2019t be brave if you\u2019ve only ever had wonderful things happen to you\" - Mary Tyler Moore",
+    "date": "2020-02-03",
+    "content": "<p>courtesy of Louis:\nGiven that an \u201ceven word\u201d is a word in which each character appears an even number of times, write a function that takes in a string and returns the minimum number of letters to be removed to make that string an even word. \nExample:<\/p>\n<p>evenWord('aaaa')\n> 0<\/p>\n<p>evenWord(\u2018potato\u2019)<\/p>\n<p>2<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/you-cant-be-brave-if-youve-only-ever-had\/"
+}

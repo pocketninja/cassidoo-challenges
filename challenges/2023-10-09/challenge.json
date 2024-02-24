@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udd8d \"All great achievements require time.\" - Maya Angelou",
+    "date": "2023-10-09",
+    "content": "<p>Convert a number in English words to an integer. You can assume the number will never go beyond the millions, and there will be no punctuation.<\/p>\n<p>Example:<\/p>\n<pre>&gt; parseNumber(&quot;Twelve Thousand Three Hundred Forty Five&quot;)\n&gt; 12345\n\n&gt; parseNumber(&quot;One Hundred Twenty Three&quot;)\n&gt; 123<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/all-great-achievements-require-time-maya-angelou\/"
+}

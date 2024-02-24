@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udff7 \"[Life's] a journey, and you're not done till you\u2019re done.\" - Fran Drescher",
+    "date": "2023-03-20",
+    "content": "<p>When you're representing colors in a program, you typically use HEX, RGB, or HSL. Write a program that converts between the different formats.<\/p>\n<p>Example:<\/p>\n<pre>$ convertColor(&#039;rgb&#039;, &#039;hex&#039;, &#039;(255,0,0)&#039;)\n$ &#039;#FF0000&#039;\n\n$ convertColor(&#039;hsl&#039;, &#039;rgb&#039;, &#039;(65,80,80)&#039;)\n$ &#039;(238,245,163)&#039;\n\n$ convertColor(&#039;hsl&#039;, &#039;hex&#039;, &#039;(65,80,80)&#039;)\n$ &#039;#EEF5A3&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/8279\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc5e \"In our leisure we reveal what kind of people we are.\" - Ovid",
+    "date": "2024-01-21",
+    "content": "<p>Write a data structure for a simple binary tree, and a function that prints a given tree.<\/p>\n<p>Example:<\/p>\n<pre>let root = new Node(1);\n    root.left = new Node(2);\n    root.right = new Node(3);\n    root.left.left = new Node(4);\n    root.left.right = new Node(5);\n\n&gt; printTree(root)\n&gt; &quot;\n    1\n   \/ \\\n  2   3\n \/ \\\n4   5\n&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/in-our-leisure-we-reveal-what-kind-of-people-we\/"
+}

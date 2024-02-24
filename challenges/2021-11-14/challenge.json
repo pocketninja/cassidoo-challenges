@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\uded5 \"Just because you make a good plan, doesn't mean that's what's gonna happen.\" - Taylor Swift",
+    "date": "2021-11-14",
+    "content": "<p>is brought to you by Sourcegraph!:\nGiven 10 JavaScript files, write a regular expression script to search the code in all of these files for any private keys or things that look like tokens. \nThe result should return the following:\n- The name of the file(s)\n- The line numbers of where the private keys or tokens start and end.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/just-because-you-make-a-good-plan-doesnt-mean\/"
+}

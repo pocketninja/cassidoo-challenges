@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf92 \"The purpose of education is to replace an empty mind with an open one.\" - Malcolm Forbes",
+    "date": "2021-05-10",
+    "content": "<p>Given an integer n, return true if n^3 and n have the same set of digits.<\/p>\n<p>Example:<\/p>\n<pre>$ sameDigits(1) \/\/ true\n$ sameDigits(10) \/\/ true\n$ sameDigits(251894) \/\/ true\n$ sameDigits(251895) \/\/ false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-purpose-of-education-is-to-replace-an-empty\/"
+}

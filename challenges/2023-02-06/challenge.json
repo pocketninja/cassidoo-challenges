@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd55 \"Talent without working hard is nothing.\" - Cristiano Ronaldo",
+    "date": "2023-02-06",
+    "content": "<p>Spreadsheet programs often use the A1 Reference Style to refer to columns. Given a column name in this style, return its column number.<\/p>\n<p>Examples of column names to their numbers:<\/p>\n<pre>A -&gt; 1\nB -&gt; 2\nC -&gt; 3\n\/\/ etc\nZ -&gt; 26\nAA -&gt; 27\nAB -&gt; 28 \n\/\/ etc\nAAA -&gt; 703<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/talent-without-working-hard-is-nothing-cristiano\/"
+}

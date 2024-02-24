@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd5f \"In a time of destruction, create something.\" - Maxine Hong Kingston",
+    "date": "2021-05-03",
+    "content": "<p>Given a positive or negative real number, round it to the next whole integer closer to zero. This means if it\u2019s positive, round down, and if it\u2019s negative, round up. Try to do this in as few characters possible!<\/p>\n<p>Test cases:<\/p>\n<pre>1.7    =&gt;  1\n-2.1    =&gt; -2\n 500.4  =&gt;  500\n-369.5  =&gt; -369\n 150    =&gt;  150\n-350    =&gt; -350<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/in-a-time-of-destruction-create-something-maxine\/"
+}

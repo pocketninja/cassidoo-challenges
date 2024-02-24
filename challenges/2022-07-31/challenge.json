@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udef0 \"Science is not a boy's game, it's not a girl's game, it's everyone's game.\" - Nichelle Nichols",
+    "date": "2022-07-31",
+    "content": "<p>Given an integer n, count the total number of 1 digits appearing in all non-negative integers less than or equal to n.<\/p>\n<p>Example:<\/p>\n<pre>&gt; numberOfOnes(14)\n&gt; 7 \/\/ 1, 10, 11, 12, 13, 14<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/science-is-not-a-boys-game-its-not-a-girls-game\/"
+}

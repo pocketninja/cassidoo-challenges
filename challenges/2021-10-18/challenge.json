@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude9c \"Reality is one of the possibilities I cannot afford to ignore.\" - Leonard Cohen",
+    "date": "2021-10-18",
+    "content": "<p>Given an array of objects A, and an array of indexes B, reorder the objects in array A with the given indexes in array B.<\/p>\n<p>Example:<\/p>\n<pre>let a = [C, D, E, F, G, H];\nlet b = [3, 0, 4, 1, 2, 5];\n\n$ reorder(a, b) \/\/ a is now [D, F, G, C, E, H]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/reality-is-one-of-the-possibilities-i-cannot\/"
+}

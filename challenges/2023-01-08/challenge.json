@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude85 \"What you do every day matters more than what you do once in a while.\" - Gretchen Rubin",
+    "date": "2023-01-08",
+    "content": "<p>Given a number, sum every second digit in that number.<\/p>\n<p>Example:<\/p>\n<pre>&gt; sumEveryOther(548915381)\n&gt; 26 \/\/ 4+9+5+8\n\n&gt; sumEveryOther(10)\n&gt; 0 \n\n&gt; sumEveryOther(1010.11)\n&gt; 1 \/\/ 0+0+1<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/what-you-do-every-day-matters-more-than-what-you\/"
+}

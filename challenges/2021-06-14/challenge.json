@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udef6 \"There will always be enemies. Time to stop being your own.\" - Larry Kramer",
+    "date": "2021-06-14",
+    "content": "<p>Given a direction and a number of columns, write a function that outputs an arrow of asterisks (see the pattern in the examples below)!<\/p>\n<p>Example:<\/p>\n<pre>$ printArrow(&#039;right&#039;, 3)\nOutput:\n*\n *\n  *\n *\n*\n\n$ printArrow(&#039;left&#039;, 5)\nOutput:\n    *\n   *\n  *\n *\n*\n *\n  *\n   *\n    *<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/there-will-always-be-enemies-time-to-stop-being\/"
+}

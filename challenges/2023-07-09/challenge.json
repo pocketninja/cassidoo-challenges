@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd94 \"Since we cannot change reality, let us change the eyes which see reality.\" - Nikos Kazantzakis",
+    "date": "2023-07-09",
+    "content": "<p>Given an array of strings and a max width, format the text such that each line has exactly maxWidth characters and is fully justified. You can choose how you want to wrap a word.<\/p>\n<p>Example:<\/p>\n<pre>&gt; justifyText([&quot;This&quot;, &quot;is&quot;, &quot;an&quot;, &quot;example&quot;, &quot;of&quot;, &quot;text&quot;, &quot;justification.&quot;], 16)\n&gt; [\n    &quot;This    is    an&quot;,\n    &quot;example  of text&quot;,\n    &quot;justification.  &quot;\n  ]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/since-we-cannot-change-reality-let-us-change-the\/"
+}

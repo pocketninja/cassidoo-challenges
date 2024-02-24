@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\uddde\ufe0f \"The best preparation for tomorrow is doing your best today.\" - H. Jackson Brown, Jr.",
+    "date": "2023-12-04",
+    "content": "<p>There is a sorted integer array that has been rotated an unknown number of times. Given that rotated array, return how many times it has been rotated. It may contain duplicate numbers!<\/p>\n<p>Example:<\/p>\n<pre>&gt; rotatedNum([4, 0, 1, 2, 3])\n&gt; 1\n\n&gt; rotatedNum([7, 9, 20])\n&gt; 0\n\n&gt; rotatedNum([7, 7, 314, 1337, 7])\n&gt; 4<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-best-preparation-for-tomorrow-is-doing-your-9764\/"
+}

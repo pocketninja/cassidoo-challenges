@@ -1,0 +1,6 @@
+{
+    "title": "5\ufe0f\u20e3 \"Time moves slowly, but passes quickly.\" - Alice Walker",
+    "date": "2022-04-04",
+    "content": "<p>is brought to you by Stytch!\nGiven two strings n and m, return true if they are equal when both are entered into text editors. But: a # means a backspace character (deleting backwards), and a % means a delete character (deleting forwards).<\/p>\n<p>Example:<\/p>\n<pre>&gt; equalWithDeletions(&quot;a##x&quot;, &quot;#a#x&quot;)\n&gt; true      \/\/ both strings become &quot;x&quot;\n\n&gt; equalWithDeletions(&quot;fi##f%%%th %%year #time###&quot;, &quot;fifth year time&quot;)\n&gt; false     \/\/ the first string becomes &quot;fart&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/5-time-moves-slowly-but-passes-quickly-alice\/"
+}

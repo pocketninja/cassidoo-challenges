@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf44 \"How soon 'not now' becomes 'never'!\" - Martin Luther",
+    "date": "2018-01-21",
+    "content": "<p>Let\u2019s say that you have a bunch of ropes of various lengths, and you want all of them to be the same length. You have to find the shortest one, and cut all of the ropes to be that length.\nGiven an int array of rope lengths, return a new array of how much each rope should be cut.\n\nExample:\n> ropeCuts([2,2,5,1,6])\n> [1,1,4,0,5]\n\u00a0<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/how-soon-not-now-becomes-never-martin-luther\/"
+}

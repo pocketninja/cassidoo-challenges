@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd6d \"Fight for the things that you care about, but do it in a way that will lead others to join you.\" - Ruth Bader Ginsburg",
+    "date": "2022-06-26",
+    "content": "<p>Given a string str and a set of words dict, find the longest word in dict that is a subsequence of str.<\/p>\n<p>Example:<\/p>\n<pre>let str = &quot;abppplee&quot;\nlet dict = {&quot;able&quot;, &quot;ale&quot;, &quot;apple&quot;, &quot;bale&quot;, &quot;kangaroo&quot;}\n\n$ longestWord(str, dict)\n$ &#039;apple&#039;\n\/\/ &quot;able&quot; and &quot;ale&quot; also work, but are shorter than &quot;apple&quot;\n\/\/ &quot;bale&quot; has all the right letters, but not in the right order<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/fight-for-the-things-that-you-care-about-but-do\/"
+}

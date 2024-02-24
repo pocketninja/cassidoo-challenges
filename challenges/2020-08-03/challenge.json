@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc52 \"It is absurd to divide people into good and bad. People are either charming or tedious.\" - Oscar Wilde",
+    "date": "2020-08-03",
+    "content": "<p>Sort an array of strings based on the number of distinct characters that occur in the word (followed by the length of the word).<\/p>\n<p>Example:<\/p>\n<p>$ charNumSort([\"Bananas\", \"do\", \"not\", \"grow\", \"in\", \"Mississippi\"])\n$ do in not Mississippi Bananas grow<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/it-is-absurd-to-divide-people-into-good-and-bad\/"
+}

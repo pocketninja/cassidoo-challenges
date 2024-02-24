@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Cassidoo Challenges</title>
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+            crossorigin="anonymous"></script>
+    <style>
+        html {
+            --gutter: 2rem;
+            font-family: sans-serif;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem auto;
+            max-width: 50rem;
+            padding: var(--gutter);
+        }
+
+        a {
+            color: rgb(12, 100, 185);
+            font-weight: bold;
+        }
+
+        .solutions {
+            display: flex;
+            flex-direction: column;
+            gap: var(--gutter);
+        }
+
+        .challenge-intro {
+            padding-bottom: var(--gutter);
+            border-bottom: 1px dashed currentColor;
+        }
+
+        .challenge-intro__date {
+            font-size: small;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .challenge-intro__solutions {
+            border: 1px solid currentColor;
+            border-radius: 0.25rem;
+            padding: 0.5rem 0.5rem;
+            display: flex;
+            gap: 0.5rem;
+            line-height: 1;
+
+            * {
+                margin: 0;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', event => {
+            const $dialog = document.getElementById('code-dialog');
+            $dialog.querySelector('.code-dialog__close-button').addEventListener('click', function () {
+                $dialog.close();
+            });
+        })
+        window.addEventListener('htmx:afterSwap', event => {
+            const $dialog = event.detail.elt.closest('dialog');
+
+            if (!$dialog) {
+                return;
+            }
+
+            $dialog.showModal();
+        });
+    </script>
+</head>
+<body>
+
+<main>
+    <header>
+        <h1>Cassidoo Challenges</h1>
+        <p>Over time, I'll attempt to solve and store as many as Cassidoo's challenges as I can, though there's no
+            guarantees, no promises, no timeframes.</p>
+        <p>This also serves as a bare-bones opportunity to experiment with things like HTMX.</p>
+    </header>
+
+    <p id="loading-indicator" class="htmx-indicator">Loading...</p>
+
+    <dialog id="code-dialog" class="code-dialog">
+        <button class="code-dialog__close-button">Close</button>
+        <div class="code-dialog__content">
+            dialog.
+        </div>
+    </dialog>
+
+    <section class="solutions"
+             hx-get="challenge-index.html"
+             hx-trigger="load"
+             hx-indicator="#loading-indicator"
+    >
+        (challenges not fetched yet)
+    </section>
+
+</main>
+
+</body>
+</html>

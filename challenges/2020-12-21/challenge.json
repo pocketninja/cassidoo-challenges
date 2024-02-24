@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf81 \"Sometimes the most productive thing you can do is relax.\" - Mark Black",
+    "date": "2020-12-21",
+    "content": "<p>You are building stories into an app. Your inputs are an object with the structure { username, postedAt }, and a date in the future. Each story lives for 24 hours. Write a function that outputs the stories that are visible for the inputted time.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/sometimes-the-most-productive-thing-you-can-do-is\/"
+}

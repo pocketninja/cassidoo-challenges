@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc15\u200d\ud83e\uddba \"A true friend is one who upon seeing a fault gives you advice and who defends you in your absence.\" - Ali ibn Abi Talib",
+    "date": "2020-06-22",
+    "content": "<p>Given an unsorted array arr of integers and an index n, return a list of medians of the subarrays in arr (where the first subarray is from index 0 to index 1, the next from 0 to index 2\u2026 index 0 to index n). Try to do it in better than O(n^2) time!<\/p>\n<p>Example:<\/p>\n<p>$ findMedians([2, 1, 3, 10, 5], 3)\n$ [2, 1.5, 2]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/a-true-friend-is-one-who-upon-seeing-a-fault\/"
+}

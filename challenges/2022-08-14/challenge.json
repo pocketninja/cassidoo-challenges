@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf9e \"Friends and good manners will carry you where money won't go.\" - Margaret Walker",
+    "date": "2022-08-14",
+    "content": "<p>Given a string s consisting of various parenthesis ( and ), find the length of the longest valid parenthesis substring.<\/p>\n<p>Example:<\/p>\n<pre>&gt; parensSubstring(&#039;(()(&#039;)\n&gt; 2\n\n&gt; parensSubstring(&#039;)()(()))&#039;)\n&gt; 6<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/friends-and-good-manners-will-carry-you-where\/"
+}

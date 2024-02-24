@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uddc9 \"Isn't it funny how, day by day nothing changes, but when you look back everything is different.\" - C. S. Lewis",
+    "date": "2020-06-29",
+    "content": "<p>Given string S, print the longest subsequence from S that contains alternating vowels and consonants. If multiple such subsequences exist having the same length, print the subsequence with the maximum sum of ASCII values of its characters.<\/p>\n<p>Example:<\/p>\n<p>$ alternateChars('ababab')\n$ 'ababab'\n$ alternateChars('cassidyisanerd')\n$ 'casiyisaner'<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/isnt-it-funny-how-day-by-day-nothing-changes-but\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd4f  \"Even if you\u2019re on the right track, you\u2019ll get run over if you just sit there.\" - Will Rogers",
+    "date": "2022-02-07",
+    "content": "<p>is brought to you by Elementary!\nImplement a word search. Given a 2D array of letters and a word to find, return the 2D array with the found word\u2019s letters replaced with an asterisk (*). If you can\u2019t find a word, just return the 2D array or \u201cnot found\u201d.<\/p>\n<p>Example:<\/p>\n<pre>let grid = [[&#039;a&#039;,&#039;a&#039;,&#039;q&#039;,&#039;t&#039;],\n            [&#039;x&#039;,&#039;c&#039;,&#039;w&#039;,&#039;e&#039;],\n            [&#039;r&#039;,&#039;l&#039;,&#039;e&#039;,&#039;p&#039;]]\n\n$ findWord(grid, &#039;ace&#039;)\n$ [[&#039;*&#039;,&#039;a&#039;,&#039;q&#039;,&#039;t&#039;],\n   [&#039;x&#039;,&#039;*&#039;,&#039;w&#039;,&#039;e&#039;],\n   [&#039;r&#039;,&#039;l&#039;,&#039;*&#039;,&#039;p&#039;]]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/even-if-youre-on-the-right-track-youll-get-run\/"
+}

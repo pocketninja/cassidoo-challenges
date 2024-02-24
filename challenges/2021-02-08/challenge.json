@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcf0 \"Without struggle, there is no progress.\" - Frederick Douglass",
+    "date": "2021-02-08",
+    "content": "<p>Implement a ProductList class that has two methods, add(n) (which pushes the value n to the back of the list) and product(m) (which returns the product of the last m numbers in the list). David made an awesome template for submitting your solutions, if you'd like to use it!<\/p>\n<p>Usage:<\/p>\n<p>ProductList p = new ProductList();\np.add(7);         \/\/ [7]\np.add(0);         \/\/ [7,0]\np.add(2);         \/\/ [7,0,2]\np.add(5);         \/\/ [7,0,2,5]\np.add(4);         \/\/ [7,0,2,5,4]\np.product(3);     \/\/ return 40 because 2 * 5 * 4<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/without-struggle-there-is-no-progress-frederick\/"
+}

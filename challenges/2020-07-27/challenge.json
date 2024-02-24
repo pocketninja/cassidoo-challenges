@@ -1,0 +1,6 @@
+{
+    "title": "\u26f4 \"If the goal of a captain was to preserve his ship he would keep it docked forever\" - Thomas Aquinas",
+    "date": "2020-07-27",
+    "content": "<p>Given a string S containing only digits, write a function that returns a list containing all possible combinations of valid IPv4 IP addresses.<\/p>\n<p>Example:<\/p>\n<p>$ getIp('11211')\n1.1.2.11\n1.1.21.1\n1.12.1.1\n11.2.1.1<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-the-goal-of-a-captain-was-to-preserve-his-ship\/"
+}

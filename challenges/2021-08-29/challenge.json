@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfdc \"Watching great people do what you love is a good way to start learning how to do it yourself.\" - Amy Poehler",
+    "date": "2021-08-29",
+    "content": "<p>Write a function to find the longest common prefix string in an array of strings.<\/p>\n<p>Example:<\/p>\n<pre>$ longestPrefix([&quot;cranberry&quot;,&quot;crawfish&quot;,&quot;crap&quot;])\n$ &quot;cra&quot;\n\n$ longestPrefix([&quot;parrot&quot;, &quot;poodle&quot;, &quot;fish&quot;])\n$ &quot;&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/watching-great-people-do-what-you-love-is-a-good\/"
+}

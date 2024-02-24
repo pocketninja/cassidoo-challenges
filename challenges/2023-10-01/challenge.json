@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udea3 \"Perseverance is failing 19 times and succeeding the 20th.\" - Julie Andrews",
+    "date": "2023-10-01",
+    "content": "<p>Given two integers source and target, add operators in the source number to make it equal target, if possible. You can return just one, or all possibilities for this!<\/p>\n<p>Example:<\/p>\n<pre>&gt; addOperators(123, 6)\n&gt; [&quot;1*2*3&quot;, &quot;1+2+3&quot;]\n\n&gt; addOperators(3456237490, 9191)\n&gt; [] \/\/ none possible<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/perseverance-is-failing-19-times-and-succeeding\/"
+}

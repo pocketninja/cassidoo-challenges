@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc6f \"If you spend too much time looking in the rearview mirror, you will crash your car.\" - Matthew Perry",
+    "date": "2023-10-29",
+    "content": "<p>Given a number, rearrange its digits to make it the next larger number. So not the maximum size it can be, but the lexicographically next greater permutation of numbers!<\/p>\n<p>Example:<\/p>\n<pre>&gt; lexoNext(123)\n&gt; 132\n\n&gt; lexoNext(314159)\n&gt; 314195<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-spend-too-much-time-looking-in-the\/"
+}

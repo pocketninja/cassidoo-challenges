@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uded4 \"He who asks is a fool for five minutes, but he who does not ask remains a fool forever.\" - Chinese Proverb",
+    "date": "2021-04-25",
+    "content": "<p>Given a string of brackets, return a rotation of those brackets that is balanced. The numbers of opening and closing brackets will always be equal, so [ or ][] won\u2019t be given as inputs.<\/p>\n<p>Example:<\/p>\n<p>$ rotateBrackets(']][][[')\n$ '[[]][]' \/\/ First rotation yields '[]][]['. Second one yields '[[]][]'.<\/p>\n<p>This question is brought to you by Pluralsight! If there\u2019s something you\u2019ve been wanting to learn, but haven\u2019t made the time, this is the universe telling you the time is now. Pluralsight is FREE all April long with 7,000+ expert-led video courses, 40+ interactive courses, 20+ projects, and more.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/he-who-asks-is-a-fool-for-five-minutes-but-he-who\/"
+}

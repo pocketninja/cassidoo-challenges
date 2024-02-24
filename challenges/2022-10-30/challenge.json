@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfb1 \"Keep your face to the sunshine and you cannot see a shadow.\" - Helen Keller",
+    "date": "2022-10-30",
+    "content": "<p>Print the ASCII printable characters code page (0x20-0x7E), without any built-ins or functions that do it for you.<\/p>\n<p>Characters to be printed:<\/p>\n<pre>!&quot;#$%&amp;&#039;()*+,-.\/\n0123456789:;&lt;=&gt;?\n@ABCDEFGHIJKLMNO\nPQRSTUVWXYZ[\\]^_\n`abcdefghijklmno\npqrstuvwxyz{|}~<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/keep-your-face-to-the-sunshine-and-you-cannot-see-1741\/"
+}

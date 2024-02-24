@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc90 \"Don't get bitter, just get better.\" - Alyssa Edwards",
+    "date": "2022-06-06",
+    "content": "<p>Given an int array coins and an int amount, return an array of coins that add up to amount (and an empty array if it\u2019s an impossible combination).<\/p>\n<p>Example:<\/p>\n<pre>let coins = [2,3,5,7]\nlet amount = 17\n\n$ coinCombo(coins, amount)\n$ [3,7,7]\n\n$ coinCombo([2,3,5], 11)\n$ [3,3,5]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/dont-get-bitter-just-get-better-alyssa-edwards\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd63 \"Study without desire spoils the memory, and it retains nothing that it takes in.\" - Leonardo da Vinci",
+    "date": "2020-11-22",
+    "content": "<p>Given a positive integer n, write a function that returns true if it is a perfect square and false otherwise. Don\u2019t use any built-in math functions like sqrt. Hint: Use binary search!<\/p>\n<p>Examples:<\/p>\n<p>$ perfectSquare(25)\n$ true\n\n$ perfectSquare(10)\n$ false<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/study-without-desire-spoils-the-memory-and-it\/"
+}

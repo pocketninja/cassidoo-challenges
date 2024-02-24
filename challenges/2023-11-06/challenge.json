@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf59 \"Quality is not an act, it is a habit.\" - Will Durant",
+    "date": "2023-11-06",
+    "content": "<p>Given a list of words and a dictionary of letter scores, find the word with the highest score according to the rules: score = word_length * (sum of letter scores in the word). If there are multiple words with the same highest score, return the lexicographically smallest one.<\/p>\n<p>Example:<\/p>\n<pre>const wordList = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;, &quot;fig&quot;];\n\nconst letterScores = [...Array(26).keys()].reduce((scores, i) =&gt; (scores[String.fromCharCode(97 + i)] = i + 1, scores), {});\n\/\/ This produces { &#039;a&#039;: 1, &#039;b&#039;: 2, &#039;c&#039;: 3, &#039;d&#039;: 4, ... }\n\nscoreWordGame(wordList, letterScores)\n\/\/ &#039;cherry&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/quality-is-not-an-act-it-is-a-habit-will-durant\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udeb8 \"To attain knowledge, add things everyday. To attain wisdom, remove things every day.\" - Lao Tzu",
+    "date": "2020-12-14",
+    "content": "<p>Given a list of folders in a filesystem and the name of a folder to remove, return the new list of folders after removal.<\/p>\n<p>Examples:<\/p>\n<p>$ removeFolder([\"\/a\",\"\/a\/b\",\"\/c\/d\",\"\/c\/d\/e\",\"\/c\/f\", \"\/c\/f\/g\"], 'c')\n$ [\"\/a\",\"\/a\/b\"]\n\n$ removeFolder([\"\/a\",\"\/a\/b\",\"\/c\/d\",\"\/c\/d\/e\",\"\/c\/f\", \"\/c\/f\/g\"], 'd')\n$ [\"\/a\",\"\/a\/b\",\"\/c\",\"\/c\/f\", \"\/c\/f\/g\"]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-attain-knowledge-add-things-everyday-to-attain\/"
+}

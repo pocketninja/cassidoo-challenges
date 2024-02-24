@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\ude95 \"Every day brings new choices.\" - Martha Beck",
+    "date": "2022-09-26",
+    "content": "<p>Write a function to output the ordinal suffix of a positive integer concatenated to an inputted number.<\/p>\n<p>Example:<\/p>\n<pre>&gt; ordinal(3)\n&gt; &#039;3rd&#039;\n\n&gt; ordinal(57)\n&gt; &#039;57th&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/every-day-brings-new-choices-martha-beck\/"
+}

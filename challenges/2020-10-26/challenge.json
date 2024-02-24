@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf9a \"If you knew how much work went into it, you wouldn't call it genius.\" - Michelangelo",
+    "date": "2020-10-26",
+    "content": "<p>Given an integer array arr, sort the integers in arr in ascending order by the number of 1's in their binary representation and return the sorted array.\nExamples:<\/p>\n<p>$ sortBits([0,1,2,3,4,5,6,7,8])\n$ [0,1,2,4,8,3,5,6,7]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-knew-how-much-work-went-into-it-you\/"
+}

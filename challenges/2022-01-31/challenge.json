@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfea \"Some stories don't have a clear beginning, middle and end.\" - Gilda Radner",
+    "date": "2022-01-31",
+    "content": "<p>is sponsored by Sourcegraph!\nGiven an array of people and their timezones in UTC, write a function to return the local time for a given person. Extra credit: add options for a 12 or 24 hour clock!<\/p>\n<p>Example:<\/p>\n<pre>let humans = [\n    { name: &#039;Clara&#039;, timezone: &#039;UTC&minus;4:00&#039; },\n    { name: &#039;Cami&#039;, timezone: &#039;UTC&minus;7:00&#039; }\n    { name: &#039;Ximena&#039;, timezone: &#039;UTC&minus;5:00&#039; }\n]\n\n$ localTime(&#039;Cami&#039;)\n$ 10:26pm \/\/ This will change depending on when you run the function<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/some-stories-dont-have-a-clear-beginning-middle\/"
+}

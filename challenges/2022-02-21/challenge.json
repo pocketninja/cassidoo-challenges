@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcaf \"No act of kindness, no matter how small, is ever wasted.\" - Aesop",
+    "date": "2022-02-21",
+    "content": "<p>Given an array of integers, find the length of the longest sub-sequence such that elements in the sub-sequence are consecutive integers, the consecutive numbers can be in any order.<\/p>\n<p>Example:<\/p>\n<pre>$ longestSubSeq([1, 9, 87, 3, 10, 4, 20, 2, 45])\n$ 4 \/\/ 1, 3, 4, 2\n\n$ longestSubSeq([36, 41, 56, 35, 91, 33, 34, 92, 43, 37, 42])\n$ 5 \/\/ 36, 35, 33, 34, 37<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/no-act-of-kindness-no-matter-how-small-is-ever\/"
+}

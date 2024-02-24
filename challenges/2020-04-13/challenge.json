@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfd2 \u201cWorry never robs tomorrow of its sorrow, it only saps today of its joy.\" - Leo Buscaglia",
+    "date": "2020-04-13",
+    "content": "<p>Given a number n, write a function to generate all combinations of well-formed parentheses.<\/p>\n<p>Example:<\/p>\n<p>generateParens(3)\n[\"((()))\",\n \"(()())\",\n \"(())()\",\n \"()(())\",\n \"()()()\"\n]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/worry-never-robs-tomorrow-of-its-sorrow-it-only\/"
+}

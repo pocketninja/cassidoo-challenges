@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf09 \"The hardest thing to learn in life is which bridge to cross and which to burn.\" - David Russell",
+    "date": "2020-10-19",
+    "content": "<p>(another similar parser but a liiiittle trickier):\nGiven a string that is an HTML-like code snippet, return whether or not the tags are valid.\nExamples:<\/p>\n<p>$ htmlValidator(`'I love coding !'`)\n$ true<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-hardest-thing-to-learn-in-life-is-which\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude35\u200d\ud83d\udcab \"You cannot live your life looking at yourself from someone else's point of view.\" - Penelope Cruz",
+    "date": "2023-04-30",
+    "content": "<p>Given a non-empty array containing only non-negative integers, return the list with trailing and leading zeroes removed.<\/p>\n<p>Example:<\/p>\n<pre>&gt; removeZeroes([0, 0, 0, 3, 1, 4, 1, 5, 9, 0, 0, 0, 0])\n&gt; [3, 1, 4, 1, 5, 9]\n\n&gt; removeZeroes([0, 0, 0])\n&gt; []\n\n&gt; removeZeroes([8])\n&gt; [8]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/5528\/"
+}

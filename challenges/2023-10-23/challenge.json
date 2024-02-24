@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd91 \"Beware of missing chances; otherwise it may be altogether too late some day.\" - Franz Liszt",
+    "date": "2023-10-23",
+    "content": "<p>Given a string s, you are allowed to delete at most k characters. Find if the string can be a palindrome after deleting at most k characters.<\/p>\n<p>Example:<\/p>\n<pre>&gt; kPal(&#039;abcweca&#039;, 2)\n&gt; true\n\n&gt; kPal(&#039;acxcb&#039;, 1)\n&gt; false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/beware-of-missing-chances-otherwise-it-may-be\/"
+}

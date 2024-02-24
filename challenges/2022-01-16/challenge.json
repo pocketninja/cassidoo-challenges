@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf71 \"The time is always right to do what is right.\" - Dr. Martin Luther King, Jr.",
+    "date": "2022-01-16",
+    "content": "<p>is sponsored by Sourcegraph!\nUsing the rules of Wordle, given a guessWord and a solutionWord, return a set of emojis returned from the guessWord.<\/p>\n<p>Example:<\/p>\n<pre>let solutionWord = &quot;fudge&quot;\n\n$ wordleGuess(&quot;reads&quot;, solutionWord)\n$ &quot;\u2b1b\ud83d\udfe8\u2b1b\ud83d\udfe8\u2b1b&quot;\n\n$ wordleGuess(&quot;lodge&quot;, solutionWord)\n$ &quot;\u2b1b\u2b1b\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-time-is-always-right-to-do-what-is-right-dr\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udcd2 \"Normal is nothing more than a cycle on a washing machine.\" - Whoopi Goldberg",
+    "date": "2022-11-13",
+    "content": "<p>(thanks to Will for sharing it):\nGiven a list of strings arr, and a max size n, return a new list where the strings (from left to right) are joined together with a space, so that each new string is less than or equal to the max size.<\/p>\n<p>Examples:<\/p>\n<pre>&gt; combineStrings([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;, &quot;g&quot;], 5)\n&gt; [&quot;a b c&quot;, &quot;d e f&quot;, &quot;g&quot;]\n\n&gt; combineStrings([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;, &quot;f&quot;, &quot;g&quot;], 12)\n&gt; [&quot;a b c d e f&quot;, &quot;g&quot;]\n\n&gt; combineStrings([&quot;alpha&quot;, &quot;beta&quot;, &quot;gamma&quot;, &quot;delta&quot;, &quot;epsilon&quot;], 20)\n&gt; [&quot;alpha beta gamma&quot;, &quot;delta epsilon&quot;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/normal-is-nothing-more-than-a-cycle-on-a-washing\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf3f \"Normal is not something to aspire to, it's something to get away from.\" - Jodie Foster",
+    "date": "2022-11-20",
+    "content": "<p>Write a function that takes a string of slashes (\\ and \/) and returns all of those slashes drawn downwards in a line connecting them.<\/p>\n<p>Example:<\/p>\n<pre>$ verticalSlashes(&#039;\\\\\\\/\/\\\/\\\\&#039;)\n\\\n \\\n  \\\n  \/\n \/\n \\\n \/\n \\\n  \\\n$ verticalSlashes(&#039;\\\\\\\\&#039;)\n\\\n \\\n  \\\n   \\<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/normal-is-not-something-to-aspire-to-its-4437\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udef5 \"Music touches us emotionally, where words alone can't.\" - Johnny Depp",
+    "date": "2020-08-31",
+    "content": "<p>Given an array of numbers that represent stock prices (where each number is the price for a certain day), find 2 days when you should buy and sell your stock for the highest profit.<\/p>\n<p>Example:<\/p>\n<p>$ stockBuySell([110, 180, 260, 40, 310, 535, 695])\n$ \"buy on day 4, sell on day 7\"<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/music-touches-us-emotionally-where-words-alone\/"
+}

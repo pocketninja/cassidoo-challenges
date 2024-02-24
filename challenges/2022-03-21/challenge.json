@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf40 \"The best time to make friends is before you need them.\" - Ethel Barrymore",
+    "date": "2022-03-21",
+    "content": "<p>Given a list of times in a 24-hour period, return the smallest interval between two times in the list. Hint: you can do this in O(n) time! Assume the list is unsorted.<\/p>\n<p>Example:<\/p>\n<pre>$ smallestTimeInterval([&#039;01:00&#039;, &#039;08:15&#039;, &#039;11:30&#039;, &#039;13:45&#039;, &#039;14:10&#039;, &#039;20:05&#039;])\n$ &#039;25 minutes&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-best-time-to-make-friends-is-before-you-need\/"
+}

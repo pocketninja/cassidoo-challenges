@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf14 \"Mellow doesn't always make for a good story, but it makes for a good life.\" - Anne Hathaway",
+    "date": "2023-11-13",
+    "content": "<p>Given a list of tasks, where each task has a duration, and a limited amount of available time to work, write a function to return the tasks that can be completed within the given time, without re-ordering the original list of tasks. Try to maximize the number of tasks that can be completed!<\/p>\n<p>Example:<\/p>\n<pre>const tasks = [\n  { name: &#039;Task 1&#039;, duration: 4 },\n  { name: &#039;Task 2&#039;, duration: 2 },\n  { name: &#039;Task 3&#039;, duration: 7 },\n  { name: &#039;Task 4&#039;, duration: 5 },\n  { name: &#039;Task 5&#039;, duration: 1 },\n  { name: &#039;Task 6&#039;, duration: 3 }\n];\n\nconst timeToWork = 6;\n\n&gt; doTasks(tasks, timeToWork)\n&gt; [&#039;Task 2&#039;, &#039;Task 5&#039;, &#039;Task 6&#039;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/mellow-doesnt-always-make-for-a-good-story-but-it\/"
+}

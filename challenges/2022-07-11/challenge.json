@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude81 \"Happiness can exist only in acceptance.\" - George Orwell",
+    "date": "2022-07-11",
+    "content": "<p>Given a linked list, such that each node contains an additional random pointer which could point to any node in the list, or null, make a deep copy of the list and return the head node of the new copy. If you need to look up details about a deep copy, check here and here!<\/p>\n<p>Node definition:<\/p>\n<pre>class Node {\n    int val;\n    Node next;\n    Node random;\n\n    public Node(int val) {\n        this.val = val;\n        this.next = null;\n        this.random = null;\n    }\n}<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/happiness-can-exist-only-in-acceptance-george\/"
+}

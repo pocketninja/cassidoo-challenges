@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude87 \"We cannot direct the wind, but we can adjust the sails.\" - Dolly Parton",
+    "date": "2021-11-08",
+    "content": "<p>Given an array of integers, return the index of each local peak in the array. A \"peak\" element is an element that is greater than its neighbors.<\/p>\n<p>Example:<\/p>\n<pre>$ localPeaks([1,2,3,1])\n$ [2]\n\n$ localPeaks([1,3,2,3,5,6,4])\n$ [1, 5]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/we-cannot-direct-the-wind-but-we-can-adjust-the\/"
+}

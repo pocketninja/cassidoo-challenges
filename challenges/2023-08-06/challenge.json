@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udec3 \"It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe.\" - Muhammad Ali",
+    "date": "2023-08-06",
+    "content": "<p>Implement the Luhn algorithm to validate a credit card number. Bonus points if you can identify what brand of credit card the user inputted!<\/p>\n<p>Example:<\/p>\n<pre>&gt; luhnCheck(123456789)\n&gt; false\n\n&gt; luhnCheck(5555555555554444)\n&gt; true \/\/ Mastercard<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/it-isnt-the-mountains-ahead-to-climb-that-wear\/"
+}

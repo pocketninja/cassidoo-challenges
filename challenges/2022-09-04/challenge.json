@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udea5 \"If everything was perfect, you would never learn and you would never grow.\" - Beyonc\u00e9",
+    "date": "2022-09-04",
+    "content": "<p>Write a function fromTo that produces a generator, that will produce values in a range.<\/p>\n<p>Usage:<\/p>\n<pre>let gen = fromTo(5,7)\n\n&gt; gen()\n5\n&gt; gen()\n6\n&gt; gen()\n7\n&gt; gen()\nundefined<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-everything-was-perfect-you-would-never-learn\/"
+}

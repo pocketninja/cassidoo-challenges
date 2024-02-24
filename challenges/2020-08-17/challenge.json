@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udda9 \"If you spend too much time thinking about a thing, you'll never get it done.\" - Bruce Lee",
+    "date": "2020-08-17",
+    "content": "<p>Given an array of random integers, move all the zeros in the array to the end of the array. Try to keep this in O(n) time (or better)!<\/p>\n<p>Example:<\/p>\n<p>$ moveZeros([1, 2, 0, 1, 0, 0, 3, 6])\n$ [1, 2, 1, 3, 6, 0, 0, 0]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-spend-too-much-time-thinking-about-a-thing\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfbf \"Never be limited by other people's limited imaginations.\" - Dr. Mae Jemison",
+    "date": "2021-02-22",
+    "content": "<p>Given a string str containing only the characters x and y, change it into a string such that there are no matching adjacent characters. You\u2019re allowed to delete zero or more characters in the string. Find the minimum number of required deletions.<\/p>\n<p>Example:<\/p>\n<p>$ everyOther('xxyxxy')\n$ 2 \/\/ str becomes 'xyxy'\n\n$ everyOther('yyyyy')\n$ 4 \/\/ str becomes 'y'<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/never-be-limited-by-other-peoples-limited\/"
+}

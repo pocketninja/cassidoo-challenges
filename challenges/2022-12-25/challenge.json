@@ -1,0 +1,6 @@
+{
+    "title": "\u2603\ufe0f \"Love is all we have, the only way that each can help the other.\" - Euripides",
+    "date": "2022-12-25",
+    "content": "<p>Given a string of any length which contains only digits from 0 to 9, replace each consecutive run of the digit 0 with its length.<\/p>\n<p>Example:<\/p>\n<pre>&gt; replaceZeros(&#039;1234500362000440&#039;)\n&gt; 1234523623441\n\n&gt; replaceZeros(&#039;123450036200044&#039;)\n&gt; 123452362344\n\n&gt; replaceZeros(&#039;000000000000&#039;)\n&gt; 12\n\n&gt; replaceZeros(&#039;123456789&#039;)\n&gt; 123456789<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/love-is-all-we-have-the-only-way-that-each-can\/"
+}

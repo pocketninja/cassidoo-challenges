@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd84 \"Your self-worth is determined by you.\" - Beyonc\u00e9",
+    "date": "2023-09-04",
+    "content": "<p>Given an array of integers and a number k (where k is guaranteed to be less than the array's length), return a subarray of length k with the minimum possible sum. Maintain the order of the original array!<\/p>\n<p>Example:<\/p>\n<pre>&gt; minSubs([1,3,20,4,8,9,11], 3)\n&gt; [4,8,9]\n\n&gt; minSubs([4,4,4,4,8], 2)\n&gt; [4,4]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/your-self-worth-is-determined-by-you-beyonce\/"
+}

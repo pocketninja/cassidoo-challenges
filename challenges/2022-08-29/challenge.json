@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf5f \"The greatest education in the world is watching the masters at work.\" - Michael Jackson",
+    "date": "2022-08-29",
+    "content": "<p>is brought to you by Applitools!\nWrite a set of tests for a function that adds numbers from many invocations, until it sees an empty invocation. Consider edge cases, side effects, incorrect usage of the function, and expected values!<\/p>\n<p>Function to test:<\/p>\n<pre>function addg(a) {\n    if (a === undefined) return a;\n    return function g(b) {\n        if (b !== undefined) {\n            return addg(a+b);\n        }\n        return a;\n    };\n}\n\n\/\/ Example usage:\n\/*\n  addg()           \/\/ undefined\n  addg(2)()        \/\/ 2\n  addg(2)(7)()     \/\/ 9\n  addg(3)(4)(0)()  \/\/ 7\n*\/<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-greatest-education-in-the-world-is-watching\/"
+}

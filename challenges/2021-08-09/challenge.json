@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\uddfa \"We need to do a better job of putting ourselves higher on our own 'to do' list.\" - Michelle Obama",
+    "date": "2021-08-09",
+    "content": "<p>Given a grid size, and a set of mines (in pairs of rows and columns), generate the Minesweeper grid for that set of mines. You can use asterisks for mines, and an x for 0!<\/p>\n<p>Example:<\/p>\n<pre>let gridSize = 5\nlet mines = [[1, 3], [3, 5], [2, 4]]\n\n$ generateMinesweeper(gridSize, mines)\n\nxxxxx\n11xxx\n*21xx\n2*21x\n12*1x<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/we-need-to-do-a-better-job-of-putting-ourselves\/"
+}

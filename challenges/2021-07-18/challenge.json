@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd97 \"The truth is, everyone's going to hurt you. You just have to find the ones worth suffering for.\" - Bob Marley",
+    "date": "2021-07-18",
+    "content": "<p>Given an unsorted array of integers and a number n, find the number of continuous subarrays having sum exactly equal n. Return -1 if none exist.<\/p>\n<p>Example:<\/p>\n<pre>$ subarraySum([10 , 2, -2, -20, 10], -10)\n$ 3 \/\/ arr[0...3], arr[1...4], arr[3...4]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-truth-is-everyones-going-to-hurt-you-you-just\/"
+}

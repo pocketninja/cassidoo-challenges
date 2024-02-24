@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udd87 \"I think it's just as important what you say no to as what you say yes to.\" - Sandra Oh",
+    "date": "2022-05-16",
+    "content": "<p>Given two integer arrays of size n, return a new array of size n such that n consists of only unique elements and the sum of all its elements is maximum.<\/p>\n<p>Example:<\/p>\n<pre>let arr1 = [7, 4, 10, 0, 1]\nlet arr2 = [9, 7, 2, 3, 6]\n\n$ maximizedArray(arr1, arr2)\n$ [9, 7, 6, 4, 10]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-think-its-just-as-important-what-you-say-no-to\/"
+}

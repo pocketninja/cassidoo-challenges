@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udece \"Don't be afraid of hard work. Nothing worthwhile comes easily.\" - Gertrude Elion",
+    "date": "2022-12-19",
+    "content": "<p>Given a string, make every consonant after a vowel uppercase. Can you do this with and without regex?<\/p>\n<p>Example:<\/p>\n<pre>&gt; capitalAfterVowel(&quot;hello world&quot;)\n&gt; &quot;heLlo WoRld&quot;\n\n&gt; capitalAfterVowel(&quot;xaabeuekadii&quot;)\n&gt; &quot;xaaBeueKaDii&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/dont-be-afraid-of-hard-work-nothing-worthwhile\/"
+}

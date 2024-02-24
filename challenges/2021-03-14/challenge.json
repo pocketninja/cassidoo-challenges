@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfa8 \"At the end of the day, we can endure much more than we think we can.\" - Frida Kahlo",
+    "date": "2021-03-14",
+    "content": "<p>Given a rowIndex, return an array of the values in that row of Pascal\u2019s Triangle.<\/p>\n<p>Example:<\/p>\n<p>$ pascals(0)\n$ [1]\n$ pascals(3)\n$ [1,3,3,1]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/at-the-end-of-the-day-we-can-endure-much-more\/"
+}

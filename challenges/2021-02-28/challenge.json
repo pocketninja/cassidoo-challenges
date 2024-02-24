@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udda6 \"Make a difference about something other than yourselves.\" - Toni Morrison",
+    "date": "2021-02-28",
+    "content": "<p>Given a room size, and the square footage a paint can can cover, return how many cans of paint you need to buy to paint a room. Assume the room has four walls. If you\u2019d like to expand this, you can add doors, windows, or any other room features that might make the problem interesting to solve.<\/p>\n<p>Example:<\/p>\n<p>room = { length: 12, width: 10, height: 9 }\ncanCoverage = 200\n$ numberOfCans(room, canCoverage)\n$ 2 \/\/ (12x9x2)+(10x9x2) = 396, so two cans will cover it<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/make-a-difference-about-something-other-than\/"
+}

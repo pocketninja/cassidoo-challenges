@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc76 \"A sword wields no strength unless the hand that holds it has courage.\" - The Legend of Zelda, Twilight Princess",
+    "date": "2023-04-23",
+    "content": "<p>Given an array of integers, find whether it\u2019s possible to construct an integer using all the digits of the numbers in the array such that it would be divisible by n (where n is 1 <= n <= 9). If it's possible, return true, else return false.<\/p>\n<p>Example:<\/p>\n<pre>&gt; divisibleIntegers(n = 3, arr= [40, 50, 90])\n&gt; true \/\/ 945000 is divisible by 3<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/2474\/"
+}

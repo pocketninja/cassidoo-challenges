@@ -1,0 +1,6 @@
+{
+    "title": "\u26f3\ufe0f \"You should celebrate who you are.\" - Eva Mendes",
+    "date": "2023-03-05",
+    "content": "<p>(thanks Tom!):\nIf you mix up the order of letters in a word, many people can slitl raed and urenadnstd tehm. Write a function that takes an input sentence, and mixes up the insides of words (anything longer than 3 letters).<\/p>\n<p>Example:<\/p>\n<pre>&gt; scramble([&quot;A quick brown fox jumped over the lazy dog.&quot;])\n&gt; &quot;A qciuk bwron fox jmepud oevr the lzay dog.&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/you-should-celebrate-who-you-are-eva-mendes\/"
+}

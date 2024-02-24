@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udd2e \"The road to success is always under construction.\" - Lily Tomlin",
+    "date": "2023-08-13",
+    "content": "<p>You have a faulty keyboard. Whenever you type a vowel on it (a,e,i,o,u,y), it reverses the string that you have written, instead of typing the character. Typing other characters works as expected. Given a string, return what will be on the screen after typing with your faulty keyboard.<\/p>\n<p>Example:<\/p>\n<pre>&gt; faultyKeeb(&#039;string&#039;)\n&gt; &#039;rtsng&#039;\n\n&gt; faultyKeeb(&#039;hello world!&#039;)\n&gt; &#039;w hllrld!&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-road-to-success-is-always-under-construction\/"
+}

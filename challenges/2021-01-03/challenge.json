@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udff8 \"You may encounter many defeats, but you must not be defeated.\" - Maya Angelou",
+    "date": "2021-01-03",
+    "content": "<p>(thanks to Tom!):\nYou\u2019re trying to build an IoT mesh network. Signals can only travel the maximum of 5 units. You\u2019re given coordinates for the switch, the light, and the mesh hubs (which capture and forward signals). Return true if the switch can successfully toggle the light.<\/p>\n<p>Example:<\/p>\n<p>let network = { switch: [0,1], hub: [[2,1], [2,5]], light: [1,6] }\n$ canToggle(network)\n$ true<\/p>\n<p>If you want a more visual example, here\u2019s a diagram. In this example, canToggle would return false because the red circles don\u2019t connect in the middle, with the blue triangle being the switch, and the green being the light!<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/you-may-encounter-many-defeats-but-you-must-not\/"
+}

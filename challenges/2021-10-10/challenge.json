@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfd9 \"We were together. I forget the rest.\" - Walt Whitman",
+    "date": "2021-10-10",
+    "content": "<p>An \u201codious number\u201d is a non-negative number that has an odd number of 1s in its binary expansion. Write a function that returns true if a given number is odious.<\/p>\n<p>Example:<\/p>\n<pre>$ isOdious(14)\n$ true\n\n$ isOdious(5)\n$ false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/we-were-together-i-forget-the-rest-walt-whitman\/"
+}

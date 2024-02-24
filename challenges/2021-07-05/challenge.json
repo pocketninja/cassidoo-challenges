@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf87 \"Beautiful days do not come to you. You must walk towards them.\" - Rumi",
+    "date": "2021-07-05",
+    "content": "<p>Imagine your users are all typing slightly incorrectly, in that they shifted their hands one key to the right. Write a function that translates what they mean to say.<\/p>\n<p>Example:<\/p>\n<pre>$ translateShift(&#039;;p; epe&#039;)\n&quot;lol wow&quot;\n\n$ translateShift(&#039;vtsmnrttu&#039;)\n&quot;cranberry&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/beautiful-days-do-not-come-to-you-you-must-walk\/"
+}

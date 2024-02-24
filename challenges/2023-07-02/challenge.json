@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd9e \"Don't punish people for admitting they were wrong, you make it harder for them to improve.\" - Ideopunk",
+    "date": "2023-07-02",
+    "content": "<p>Given an integer n, return true if it's a perfect square AND when reversed, is still a perfect square.<\/p>\n<p>Example:<\/p>\n<pre>&gt; reversedSquares(9)\n&gt; true\n\n&gt; reversedSquares(441)\n&gt; true\n\n&gt; reversedSquares(25)\n&gt; false<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/2447\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc41 \"When you're free, your true creativity, your true self comes out.\" - Tina Turner",
+    "date": "2023-05-28",
+    "content": "<p>Given an array of words, return the words that can be typed using letters of only one row on a keyboard. For bonus points, include the option for a user to pick the type of keyboard they are using (ANSI, ISO, etc), and\/or give options for how many\/which rows are allowed!<\/p>\n<p>Example:<\/p>\n<pre>&gt; oneRow([&#039;candy&#039;, &#039;fart&#039;, &#039;pop&#039;, &#039;Zelda&#039;, &#039;flag&#039;, &#039;typewriter&#039;])\n&gt; [&#039;pop&#039;, &#039;flag&#039;, &#039;typewriter&#039;]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/1868\/"
+}

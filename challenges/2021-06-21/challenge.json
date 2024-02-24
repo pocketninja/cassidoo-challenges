@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udecb \"Not everything that is faced can be changed, but nothing can be changed until it is faced.\" - James Baldwin",
+    "date": "2021-06-21",
+    "content": "<p>is a variation of last week\u2019s:\nWrite a function that draws an ASCII art cube of given height x.<\/p>\n<p>Example:<\/p>\n<pre>$ drawCube(2)\n  +----+\n \/    \/|\n+----+ |\n|    | +\n|    |\/\n+----+\n\n$ drawCube(4)\n\n   +--------+\n  \/        \/|\n \/        \/ |\n+--------+  |\n|        |  |\n|        |  +\n|        | \/\n|        |\/\n+--------+<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/not-everything-that-is-faced-can-be-changed-but\/"
+}

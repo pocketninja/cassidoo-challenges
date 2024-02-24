@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd83 \"My philosophy is that you do what you have to do.\" - Rosalynn Carter",
+    "date": "2023-11-20",
+    "content": "<p>Given a start number a, an ending number b, and a string str that can be \"odd\", \"even\", or \"prime\", return all of the numbers that are odd, even, or prime between a and b. a will not always necessarily be less than b!<\/p>\n<p>Example:<\/p>\n<pre>&gt; betweenNums(3, 11, &#039;even&#039;)\n&gt; [4,6,8,10]\n\n&gt; betweenNums(15, 1, &#039;prime&#039;)\n&gt; [2,3,5,7,11,13]<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/my-philosophy-is-that-you-do-what-you-have-to-do\/"
+}

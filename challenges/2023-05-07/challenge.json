@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd71 \"Life is anything but predictable.\" - Dwayne Johnson",
+    "date": "2023-05-07",
+    "content": "<p>Sum the odd-square numbers less than a given integer n.<\/p>\n<p>Example:<\/p>\n<pre>&gt; oddSquareSum(1)\n&gt; 0\n\n&gt; oddSquareSum(2)\n&gt; 1\n\n&gt; oddSquareSum(9)\n&gt; 1\n\n&gt; oddSquareSum(10)\n&gt; 10\n\n&gt; oddSquareSum(44)\n&gt; 35<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/6053\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf14 \"Keep your face always toward the sunshine - and shadows will fall behind you.\" - Walt Whitman",
+    "date": "2022-05-30",
+    "content": "<p>Write a function that determines if all the characters in a given string are unique. Can you do this without making any new variables? You choose if you want to include capitalization in your consideration for this one, as a fun challenge.<\/p>\n<p>Example:<\/p>\n<pre>&gt; allUnique(&#039;Cassidy&#039;)\n&gt; false\n\n&gt; allUnique(&#039;cat &amp; dog&#039;)\n&gt; false\n\n&gt; allUnique(&#039;cat+dog&#039;)\n&gt; true<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/keep-your-face-always-toward-the-sunshine-and\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfb7 \"The early bird gets the first worm, but the wisest bird gets the fastest one.\" - Matshona Dhliwayo",
+    "date": "2022-03-06",
+    "content": "<p>Implement a hashmap from scratch without any existing libraries in your preferred language.<\/p>\n<p>A hashmap should:<\/p>\n<p>Be empty when initialized\nHave the function put(int key, int value) which inserts a (key, value) pair into the hashmap. If the key already exists, update the corresponding value.\nHave the function get(int key) which returns the value to which the specified key is mapped, or -1 if there\u2019s no mapping for the key.\nHave the function remove(key) which removes the key and its value if it exists in the map.<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-early-bird-gets-the-first-worm-but-the-wisest\/"
+}

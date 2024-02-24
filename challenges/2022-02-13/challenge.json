@@ -1,0 +1,6 @@
+{
+    "title": "\u2702\ufe0f \"If you hit a wrong note, it\u2019s the next note that you play that determines if it\u2019s good or bad.\" - Miles Davis",
+    "date": "2022-02-13",
+    "content": "<p>Given a QWERTY keyboard grid and a remote control with arrows and a \u201cselect\u201d button, write a function that returns the buttons you have to press to type a certain word. The cursor will always start in the upper left at the letter Q.<\/p>\n<p>Example:<\/p>\n<pre>$ remoteControl(&#039;car&#039;)\n$ &#039;down, down, right, right, select, left, left, up, select, up, right, right, right, select&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/if-you-hit-a-wrong-note-its-the-next-note-that\/"
+}

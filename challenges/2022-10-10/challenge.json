@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude89 \"Instant gratification takes too long.\" - Carrie Fisher",
+    "date": "2022-10-10",
+    "content": "<p>Write a function that truncates words in a string to length n.<\/p>\n<p>Example:<\/p>\n<pre>let n = 3\n\n&gt; truncate(&#039;never gonna give you up&#039;, n)\n&gt; &#039;nev gon giv you up&#039;\n\n&gt; truncate(&#039;*hello* darkness, my ~old_friend&#039;, n)\n&gt; &#039;*hel* dar, my ~old_fri&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/instant-gratification-takes-too-long-carrie-fisher\/"
+}

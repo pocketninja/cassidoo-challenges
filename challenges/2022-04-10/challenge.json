@@ -1,0 +1,6 @@
+{
+    "title": "\u23f2 \"You become what you understand.\" - S\u00f8ren Kierkegaard",
+    "date": "2022-04-10",
+    "content": "<p>Given an integer n representing the number of sides of a regular polygon, return the measure of each interior angle. Bonus points: implement some of the other functions listed in the linked Wikipedia page!<\/p>\n<p>Example:<\/p>\n<pre>$ interiorAngleSize(3)\n$ 60 \/\/ Each angle in a triangle that is a regular polygon is 60 degrees\n\n$ interiorAngleSize(8)\n$ 135<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/you-become-what-you-understand-soren-kierkegaard\/"
+}

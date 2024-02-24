@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd95 \"I have no special talents. I am only passionately curious.\" - Albert Einstein",
+    "date": "2020-09-28",
+    "content": "<p>Given an array of people objects (where each person has a name and a number of pizza slices they\u2019re hungry for) and a number for the number of slices that the pizza can be sliced into, return the number of pizzas you need to buy.\nExample:<\/p>\n<p>$ arr = [{ name: Joe, num: 9 }, { name: Cami, num: 3 }, { name: Cassidy, num: 4 }]\n$ gimmePizza(arr, 8)\n$ 2 \/\/ 16 slices needed, pizzas can be sliced into 8 pieces, so 2 pizzas should be ordered<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-have-no-special-talents-i-am-only-passionately\/"
+}

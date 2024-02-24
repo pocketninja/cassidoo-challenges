@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf70 \"Life is short, and it is up to you to make it sweet.\" - Sarah Louise Delany",
+    "date": "2021-12-05",
+    "content": "<p>You have to order wrapping paper for presents. Given the length, width, and height of the boxes you need to wrap, return the number of square feet (or whatever units you want) of wrapping paper you need to order. Extra credit: allow for other shapes of presents and their dimensions!<\/p>\n<p>Example:<\/p>\n<pre>$ wrap(2, 3, 4)\n$ 52 square feet<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/life-is-short-and-it-is-up-to-you-to-make-it\/"
+}

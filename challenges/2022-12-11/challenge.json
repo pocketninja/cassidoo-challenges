@@ -1,0 +1,6 @@
+{
+    "title": "\u26f4 \"Life has no blessing like a prudent friend.\" - Euripides",
+    "date": "2022-12-11",
+    "content": "<p>Given a 2D array n of integers, and an array m of four (4) coordinates that represent corners of a rectangle in n, return the sum of all of the numbers in the rectangle.<\/p>\n<p>Example:<\/p>\n<pre>n = [6,  9, -7,  3,\n     8, -1, -6, -4,\n     2, -7,  7, -7,\n    -1,  4,  7,  9]\n\nm = [-1, 8, -7, 2]\n\n&gt; rectangleSum(n, m)\n&gt; 2\n&gt; rectangleSum(n, [6, 3, 2, -7])\n&gt; 3<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/life-has-no-blessing-like-a-prudent-friend\/"
+}

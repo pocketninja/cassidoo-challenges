@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udc53 \"We are what we repeatedly do. Excellence, then, is not an act, but a habit.\" - Will Durant",
+    "date": "2020-12-27",
+    "content": "<p>You're given a string of characters that are only 2s and 0s. Return the index of the first occurrence of \"2020\" without using the indexOf (or similar) function, and -1 if it's not found in the string.<\/p>\n<p>Example:<\/p>\n<p>$ find2020('2220000202220020200')\n$ 14<\/p>\n<p>I also want to give a shout-out to Ten, who solved the interview question EVERY WEEK this year!! He wrote about it back in February, and even did some study groups around them. Major kudos to your dedication, Ten!<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/we-are-what-we-repeatedly-do-excellence-then-is\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf38  \"Success is more a function of consistent common sense than it is of genius.\" - An Wang",
+    "date": "2021-03-29",
+    "content": "<p>Given a string, return true if the string represents a valid number. A valid number can include integers, a ., -, or +.<\/p>\n<p>Examples of valid numbers:\n\u201c7\u201d, \u201c0011\u201d, \u201c+3.14\u201d, \u201c4.\u201d, \u201c-.9\u201d, \u201c-123.456\u201d, \u201c-0.1\u201d<\/p>\n<p>Examples of invalid numbers:\n\u201cabc\u201d, \u201c1a\u201d, \u201ce8\u201d, \u201c\u20136\u201d, \u201c-+3\u201d, \u201c95x54e53.\u201d<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/success-is-more-a-function-of-consistent-common\/"
+}

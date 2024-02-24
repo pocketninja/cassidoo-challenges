@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\uddbc \"The sky is not the limit. Your mind is.\" - Marilyn Monroe",
+    "date": "2020-11-09",
+    "content": "<p>Your music library contains N songs and your friend wants to listen to L songs during your road trip (repeats are allowed). Make a playlist so that every song is played at least once, and a song can only be played again only if K other songs have been played. Return the number of possible playlists.\nExamples:<\/p>\n<p>$ numPlaylists(N = 3, L = 3, K = 1)\n$ 6 \/\/ [1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-sky-is-not-the-limit-your-mind-is-marilyn\/"
+}

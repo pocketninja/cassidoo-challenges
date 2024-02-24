@@ -1,0 +1,6 @@
+{
+    "title": "\ud83e\udd9a \"Frustration is fuel that can lead to the development of an innovative and useful idea.\" - Marley Dias",
+    "date": "2022-03-27",
+    "content": "<p>Given a string that represents items as asterisks (*) and compartment walls as pipes (|), a start index, and an end index, return the number of items in a closed compartment.<\/p>\n<p>Example:<\/p>\n<pre>let str = &#039;|**|*|*&#039;\n\n&gt; containedItems(str, 0, 5)\n&gt; 2\n\n&gt; containedItems(str, 0, 6)\n&gt; 3\n\n&gt; containedItems(str, 1, 7)\n&gt; 1<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/frustration-is-fuel-that-can-lead-to-the\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf81 \"In seed time learn, in harvest teach, in winter enjoy.\" - William Blake",
+    "date": "2023-12-25",
+    "content": "<p>You have some gifts you want to return. Gifts bought in December have a 90-day return window, and all other gifts have a 30-day return window. Given a gift's buy date, write a function that prints the last day you can return the gift. You can choose how dates should be formatted!<\/p>\n<p>Example:<\/p>\n<pre>&gt; returnGift(&#039;Dec 25, 2023&#039;)\n&gt; &quot;Mar 23, 2024&quot;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/in-seed-time-learn-in-harvest-teach-in-winter\/"
+}

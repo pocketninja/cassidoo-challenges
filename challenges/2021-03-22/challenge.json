@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf1b \"I never dreamed about success. I worked for it.\" - Est\u00e9e Lauder",
+    "date": "2021-03-22",
+    "content": "<p>You\u2019re given two integer arrays (n and m), and an integer k. Using the digits from n and m, return the largest number you can of length k.<\/p>\n<p>Example:<\/p>\n<p>n = [3,4,6,5]\nm = [9,0,2,5,8,3]\nk = 5\n$ maxNum(n, m, k)\n$ 98655<\/p>\n<p>Note: The original message here had a typo where the answer said 98653!<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/i-never-dreamed-about-success-i-worked-for-it\/"
+}

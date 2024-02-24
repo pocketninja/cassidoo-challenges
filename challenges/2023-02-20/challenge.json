@@ -1,0 +1,6 @@
+{
+    "title": "\u26f2\ufe0f \"To think that everybody's like you is silly.\" - Charles Barkley",
+    "date": "2023-02-20",
+    "content": "<p>Given a string of parenthesis, return the number of parenthesis you need to add to the string in order for it to be balanced.<\/p>\n<p>Examples:<\/p>\n<pre>&gt; numBalanced(`()`)\n&gt; 0\n\n&gt; numBalanced(`(()`)\n&gt; 1\n\n&gt; numBalanced(`))()))))()`)\n&gt; 6\n\n&gt; numBalanced(`)))))`)\n&gt; 5<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-think-that-everybodys-like-you-is-silly\/"
+}

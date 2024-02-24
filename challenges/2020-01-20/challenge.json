@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udeb6\u200d\u2642\ufe0f\"Whatever your life's work is, do it well.\" - Martin Luther King Jr.",
+    "date": "2020-01-20",
+    "content": "<p>Last week I had you implement the sum of n-digit palindromes. Nice work Dale, Andrew, Jehiel, Chu\u00fake, Jeremy, Leslie, Louis, Ten, Cory, Oswaldo, Jaime, Ivana, Jacob, Dan, Austin, Julian, Dimitris, Lionel, Moises, Mayra, and Uzair!Given a number, return true if the input is a factorial of any natural number.\nExample:<\/p>\n<p>> isFactorial(3)\n> false\n> isFactorial(6)\n> true<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/whatever-your-lifes-work-is-do-it-well-martin\/"
+}

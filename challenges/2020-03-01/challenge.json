@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\ude4a \"Sometimes, fear does not subside and... one must choose to do it afraid.\" - Elisabeth Elliot",
+    "date": "2020-03-01",
+    "content": "<p>Write a function that when given a positive integer n and a digit d (which is not 0), outputs a way to represent n using only addition, subtraction, multiplication, exponentiation, division, concatenation, parenthesis and the digit d.<\/p>\n<p>Example:<\/p>\n<p>n =  6, d = 1  =>  1 + 1 + 1 + 1 + 1 + 1\nn = 10, d = 1  =>  1 | 1 - 1\nn = 12, d = 1  =>  1 | (1 + 1)\nn = 64, d = 2  =>  2 ^ (2 + 2 + 2)\nn =  1, d = 9  =>  9 \/ 9<\/p>\n<p>(In this example, | represents concatenation)<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/sometimes-fear-does-not-subside-and-one-must\/"
+}

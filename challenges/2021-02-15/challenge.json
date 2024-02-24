@@ -1,0 +1,6 @@
+{
+    "title": "\ud83d\udda4 \"To know how much there is to know is the beginning of learning to live.\" - Dorothy West",
+    "date": "2021-02-15",
+    "content": "<p>Given a string str and a dictionary dict containing a list of non-empty words, add spaces in str to construct a \u201csentence\u201d where each word is a valid word in dict. Return all possible sentences. You are allowed to reuse the words in dict.<\/p>\n<p>Example:<\/p>\n<p>str = \"penpineapplepenapple\"\ndict = [\"apple\", \"pen\", \"applepen\", \"pine\", \"pineapple\"]\n\n$ makeSentence(str, dict)\n$ [\n    \"pen pine apple pen apple\",\n    \"pen pineapple pen apple\",\n    \"pen pine applepen apple\"\n  ]<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/to-know-how-much-there-is-to-know-is-the\/"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udf4a \"You've got to get up every morning with a smile on your face and show the world all the love in your heart.\" - Carole King",
+    "date": "2022-08-08",
+    "content": "<p>Given a list, swap every two adjacent nodes. Something to think about: How would your code change if this were a linked list, versus an array?<\/p>\n<p>Example:<\/p>\n<pre>&gt; swapPairs([1,2,3,4])\n&gt; [2,1,4,3]\n\n&gt; swapPairs([])\n&gt; []<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/youve-got-to-get-up-every-morning-with-a-smile-on\/"
+}

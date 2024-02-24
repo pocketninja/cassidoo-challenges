@@ -1,0 +1,6 @@
+{
+    "title": "\ud83c\udfb4 \"When you arise in the morning, think of what a precious privilege it is to be alive - to breathe, to think, to enjoy, to love.\" - Marcus Aurelius",
+    "date": "2020-05-03",
+    "content": "<p>Given an array of words, return the words that can be typed using letters of only one row on a keyboard. \nExtra credit: Include the option for a user to pick the type of keyboard they are using (ANSI, ISO, etc)!<\/p>\n<p>Example:<\/p>\n<p>$ oneRow(['candy', 'doodle', 'pop', 'shield', 'lag', 'typewriter'])\n$ ['pop', 'lag', 'typewriter']<\/p>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/when-you-arise-in-the-morning-think-of-what-a\/"
+}

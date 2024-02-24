@@ -1,0 +1,6 @@
+{
+    "title": "\u26f2\ufe0f \"The time to relax is when you don\u2019t have time for it.\" - Sydney J. Harris",
+    "date": "2021-08-16",
+    "content": "<p>Given a string s, return the longest palindromic substring in s.<\/p>\n<p>Example:<\/p>\n<pre>$ pSubstring(&#039;babad&#039;)\n$ &#039;bab&#039; \/\/ or &#039;aba&#039;<\/pre>",
+    "link": "https:\/\/buttondown.email\/cassidoo\/archive\/the-time-to-relax-is-when-you-dont-have-time-for\/"
+}
