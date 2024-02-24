@@ -53,10 +53,9 @@ function discoverChallenge(string $path): ?Challenge
 
     $challenge = new Challenge(
         title: discoverTitle($xpath),
+        date: discoverDate($xpath),
         content: discoverChallengeContent($xpath),
     );
-
-    var_dump($challenge);
 
     return $challenge->valid() ? $challenge : null;
 }
@@ -84,12 +83,12 @@ function discoverChallengeContent(DOMXPath $xpath): ?string
         return null;
     }
 
-    // Read until hr
     $content = [];
 
     $currentElement = $startElement->item(0);
 
     while ($currentElement !== null) {
+        // Examples always end with a <hr>.
         if ($currentElement->nodeName === 'hr') {
             break;
         }
@@ -136,4 +135,42 @@ function discoverChallengeContent(DOMXPath $xpath): ?string
     return preg_replace('`\s*this week.s question:?\s*`i', '', $content);
 }
 
+function discoverDate(DOMXPath $xpath): ?string
+{
+    // Date el is .email-detail .email-detail__header h3.byline
+    $date = $xpath->query('//div[contains(@class, "email-detail")]//h3[contains(@class, "byline")]');
 
+    if ($date->length === 0) {
+        return null;
+    }
+
+    try {
+        $date = new DateTimeImmutable(trim($date->item(0)->textContent));
+    } catch (Exception) {
+        return null;
+    }
+
+    return $date->format('Y-m-d');
+}
+
+function storeChallenge(Challenge $challenge): void
+{
+    static $challengesPath = __DIR__.'/../../challenges';
+
+    line('  ==> Storing: %s', $challenge->title);
+
+    $challengePath = sprintf('%s/%s', $challengesPath, $challenge->date);
+    $payloadPath = sprintf('%s/challenge.json', $challengePath);
+
+    if (!is_dir($challengePath)) {
+        match (mkdir($challengePath, recursive: true)) {
+            true => line('Created: %s', $challengePath),
+            default => throw new Exception(sprintf('Could not create: %s', $challengePath))
+        };
+    }
+
+    match (file_put_contents($payloadPath, json_encode($challenge, JSON_PRETTY_PRINT))) {
+        false => throw new Exception(sprintf('Could not write: %s', $payloadPath)),
+        default => line('Stored: %s', $payloadPath)
+    };
+}

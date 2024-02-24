@@ -22,11 +22,17 @@ while (true) {
             $email->getAttribute('href')
         );
 
-        $challenge = discoverChallenge($email->getAttribute('href'));
+        try {
+            $challenge = discoverChallenge($email->getAttribute('href'));
 
-        if ($challenge === null) {
-            line("   => [could no discover challenge // no challenge found]");
-            continue;
+            if ($challenge === null) {
+                line("   => [could no discover challenge // no challenge found]");
+                continue;
+            }
+
+            storeChallenge($challenge);
+        } catch (Exception $e) {
+            line("   => [error: %s]", $e->getMessage());
         }
     }
 
@@ -40,12 +46,7 @@ while (true) {
     }
 }
 
-echo "END";
-
-//$emails = array_map(
-//    fn(DOMElement $email) => [
-//        'title' => $email->textContent,
-//        'url' => $email->getAttribute('href'),
-//    ],
-//    iterator_to_array($emails)
-//);
+line("----------------------");
+line("----------------------");
+line("----------------------");
+line("DONE");
