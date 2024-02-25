@@ -325,3 +325,34 @@ HTML;
 
     file_put_contents($solutionOutputPath, $solutionHtml);
 }
+
+function generateStats(array $stats): void
+{
+    static $statTemplate = <<<'HTML'
+<div class="stat stat--%2$s" style="--percentage-complete: %1$f%%;" data-total="%3$s" data-solved="%4$s">
+    <span class="stat__label">%2$s (%3$s / %4$s)</span>
+    <span class="stat__percentage-bar">%1$f%%</span>
+</div>
+HTML;
+
+    $statsHtml = array_map(
+        fn(string $year, array $data) => sprintf(
+            $statTemplate,
+            $data['solved'] / $data['total'] * 100,
+            $year,
+            $data['total'],
+            $data['solved']
+        ),
+        array_keys($stats),
+        $stats
+    );
+
+    $html = sprintf(
+        '<div class="stats">%s</div>',
+        implode(PHP_EOL, $statsHtml)
+    );
+
+    $statPath = __DIR__.'/../../public/stats.html';
+
+    file_put_contents($statPath, $html);
+}

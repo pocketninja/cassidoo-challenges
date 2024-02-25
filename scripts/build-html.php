@@ -8,13 +8,35 @@ require __DIR__.'/includes/functions.php';
 $challengesPath = __DIR__.'/../challenges/';
 $challengesDirectory = new DirectoryIterator($challengesPath);
 
+$stats = [
+    'all' => [
+        'total' => 0,
+        'solved' => 0,
+    ],
+];
+
 // Generate all the intros.
 foreach ($challengesDirectory as $challengeDirectory) {
     if ($challengeDirectory->isDot() || $challengeDirectory->isFile()) {
         continue;
     }
 
-    line('Generating intro for: %s', $challengeDirectory->getFilename());
+    $challengeCount++;
+
+    $challengeDate = $challengeDirectory->getFilename();
+    $challengeYear = (new DateTimeImmutable($challengeDate))->format('Y');
+
+    if (!array_key_exists($challengeYear, $stats)) {
+        $stats[$challengeYear] = [
+            'total' => 0,
+            'solved' => 0,
+        ];
+    }
+
+    $stats['all']['total']++;
+    $stats[$challengeYear]['total']++;
+
+    line('Generating intro for: %s', $challengeDate);
 
     $challengeSpecPath = sprintf('%s/challenge.json', $challengeDirectory->getPathname());
     $challengeSpec = file_get_contents($challengeSpecPath);
@@ -34,11 +56,20 @@ foreach ($challengesDirectory as $challengeDirectory) {
         generateSolutionHtml($challenge, $solutionType);
         line(' ----> Generated solution for: %s', $solutionType->value);
     }
+
+    if (count($solutionTypes)) {
+        $stats['all']['solved']++;
+        $stats[$challengeYear]['solved']++;
+    }
 }
+
+generateStats($stats);
 
 // Generate the overall index to be read into index.html.
 $challengeIndexFile = __DIR__.'/../public/challenge-index.html';
 emptyFile($challengeIndexFile);
+
+file_put_contents($challengeIndexFile, file_get_contents(__DIR__.'/../public/stats.html'));
 
 $intros = glob(__DIR__.'/../public/challenges/*/intro.html');
 rsort($intros);

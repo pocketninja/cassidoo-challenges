@@ -11,12 +11,14 @@
     <style>
         html {
             --gutter: 2rem;
+            --transition: opacity 0.25s ease-in-out;
             font-family: sans-serif;
         }
 
         main {
             display: flex;
             flex-direction: column;
+            gap: var(--gutter);
             margin: 2rem auto;
             max-width: 50rem;
             padding: var(--gutter);
@@ -27,10 +29,24 @@
             font-weight: bold;
         }
 
+        .htmx-indicator {
+            display: none;
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .htmx-request .htmx-indicator,
+        .htmx-request.htmx-indicator {
+            display: block;
+            opacity: 1
+        }
+
+
         .solutions {
             display: flex;
             flex-direction: column;
             gap: var(--gutter);
+            padding-top: 1rem;
         }
 
         .challenge-intro {
@@ -44,7 +60,6 @@
 
         .challenge-intro--unsolved {
             background-color: #ececec;
-            opacity: 0.5;
         }
 
         .challenge-intro__date {
@@ -64,6 +79,55 @@
             * {
                 margin: 0;
             }
+        }
+
+        .challenge-filter:has(.challenge-filter-option--solved input:checked) + .solutions .challenge-intro--solved,
+        .challenge-filter:has(.challenge-filter-option--unsolved input:checked) + .solutions .challenge-intro--unsolved {
+            display: block;
+        }
+
+        .challenge-filter:not(:has(.challenge-filter-option--solved input:checked)) + .solutions .challenge-intro--solved,
+        .challenge-filter:not(:has(.challenge-filter-option--unsolved input:checked)) + .solutions .challenge-intro--unsolved {
+            display: none;
+        }
+
+        .stats {
+            display: grid;
+            gap: calc(var(--gutter) / 2);
+            grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        }
+
+        .stat {
+            padding: calc(var(--gutter) / 2);
+            background: #efefef;
+            border-radius: 0.25rem;
+            font-size: small;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: calc(var(--gutter) / 2);
+        }
+
+        .stat[data-solved="0"]  {
+            display: none;
+        }
+
+        .stat__label {
+            font-weight: bold;
+        }
+
+        .stat__percentage-bar {
+            width: var(--percentage-complete);
+            padding: 0.25rem;
+            display: block;
+            background-color: aquamarine;
+        }
+
+        .stat--all {
+            /* full width in the grid */
+            grid-column: 1 / -1;
         }
 
         pre {
@@ -98,9 +162,7 @@
 <main>
     <header>
         <h1>Cassidoo Challenges</h1>
-        <p>Over time, I'll attempt to solve and store as many as Cassidoo's challenges as I can, though there's no
-            guarantees, no promises, no timeframes.</p>
-        <p>This also serves as a bare-bones opportunity to experiment with things like HTMX.</p>
+        <p>Over time, I'll attempt to solve and store as many as Cassidoo's challenges as I can, time permitting.</p>
     </header>
 
     <p id="loading-indicator" class="htmx-indicator">Loading...</p>
@@ -111,6 +173,21 @@
             dialog.
         </div>
     </dialog>
+
+    <section class="challenge-filter">
+        <label class="challenge-filter-option challenge-filter-option--solved">
+            <input type="checkbox" checked>
+            <span class="challenge-filter-option--text">
+                Solved
+            </span>
+        </label>
+        <label class="challenge-filter-option challenge-filter-option--unsolved">
+            <input type="checkbox">
+            <span class="challenge-filter-option--text">
+                Unsolved
+            </span>
+        </label>
+    </section>
 
     <section class="solutions"
              hx-get="challenge-index.html"
