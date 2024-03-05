@@ -1,5 +1,5 @@
 fun isAnagram(vararg inputs: String): Boolean
-    return inputs.map { input -> input.split (''''). sorted ) }
+    return inputs.map { input -> input.split (""). sorted ) }
         .distinct()
         .count () == 1
 }

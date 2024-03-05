@@ -5,6 +5,7 @@ enum SolutionType: string
     case PHP = 'php';
     case JS = 'js';
     case RUST = 'rs';
+    case KOTLIN = 'kt';
 
     public function label(): string
     {
@@ -12,6 +13,7 @@ enum SolutionType: string
             self::PHP => 'PHP',
             self::JS => 'JavaScript',
             self::RUST => 'Rust',
+            self::KOTLIN => 'Kotlin',
         };
     }
 
