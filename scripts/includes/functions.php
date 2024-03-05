@@ -253,20 +253,21 @@ function generateChallengeIntro(Challenge $challenge, array $solutionTypes): voi
 HTML;
 
     static $solutionLinkTemplate = <<<'HTML'
+<span>
 <a
-    href="https://github.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s"
+    href="/challenges/%1$s/%2$s.html"
     hx-get="/challenges/%1$s/%2$s.html"
     hx-target="#code-dialog .code-dialog__content"
     class="solution-link"
->
- %3$s
- </a>
+>%3$s</a>
+ (<a href="https://github.com/pocketninja/cassidoo-challenges/blob/main/challenges/%1$s/%2$s">github</a>)
+</span>
 HTML;
 
 
     $solutionsHtml = count($solutionTypes) === 0
         ? '<p>No solutions yet.</p>'
-        : implode(' ',
+        : implode(' | ',
             array_map(
                 fn(SolutionType $type) => sprintf(
                     $solutionLinkTemplate,
