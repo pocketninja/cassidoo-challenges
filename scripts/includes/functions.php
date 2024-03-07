@@ -241,7 +241,7 @@ function generateChallengeIntro(Challenge $challenge, array $solutionTypes): voi
 
     //@TODO If ever necessary/worth it, extract these out to template files, with tokens.
     static $template = <<<'HTML'
-<div class="challenge-intro challenge-intro--%6$s">
+<div class="challenge-intro challenge-intro--%6$s challenge-intro--%4$s">
     <h1 class="challenge-intro__title">
         <time class="challenge-intro__date" datetime="%4$s">%4$s</time>
         %1$s
@@ -303,7 +303,7 @@ function generateSolutionHtml(Challenge $challenge, SolutionType $solutionType):
     assertChallengePublicPath($challenge);
 
     static $solutionHtmlTemplate = <<<'HTML'
-<pre class="challenge-solution">%s</pre>
+<pre class="challenge-solution"><code class="language-%s">%s</code></pre>
 HTML;
 
 
@@ -321,6 +321,7 @@ HTML;
 
     $solutionHtml = sprintf(
         $solutionHtmlTemplate,
+        $solutionType->value,
         htmlentities(file_get_contents($solutionPath))
     );
 

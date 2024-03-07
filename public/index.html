@@ -5,9 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Cassidoo Challenges</title>
-    <script src="https://unpkg.com/htmx.org@1.9.10"
-            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
-            crossorigin="anonymous"></script>
     <style>
         html {
             --gutter: 2rem;
@@ -112,7 +109,7 @@
             gap: calc(var(--gutter) / 2);
         }
 
-        .stat[data-solved="0"]  {
+        .stat[data-solved="0"] {
             display: none;
         }
 
@@ -143,6 +140,7 @@
     </style>
     <script>
         document.addEventListener('DOMContentLoaded', event => {
+
             const $dialog = document.getElementById('code-dialog');
             $dialog.querySelector('.code-dialog__close-button').addEventListener('click', function () {
                 $dialog.close();
@@ -155,9 +153,15 @@
                 return;
             }
 
+            hljs && hljs.highlightAll();
             $dialog.showModal();
         });
     </script>
+    <script src="https://unpkg.com/htmx.org@1.9.10"
+            integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
     <script src="https://cdn.usefathom.com/script.js" data-site="XDNDDNBN" defer></script>
 </head>
 <body>
